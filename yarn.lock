@@ -512,10 +512,22 @@ minimist@^1.1.1:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
+mustache@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/mustache/-/mustache-4.2.0.tgz#e5892324d60a12ec9c2a73359edca52972bf6f64"
+  integrity sha512-71ippSywq5Yb7/tVYyGbkBggbU8H3u5Rz56fH60jGFgr8uHwxs+aSKeqmluIVzM0m0kB7xQjKS6qPfd0b2ZoqQ==
+
 nanoid@^3.1.30, nanoid@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.1.tgz#6347a18cac88af88f58af0b3594b723d5e99bb35"
   integrity sha512-n6Vs/3KGyxPQd6uO0eH4Bv0ojGSUvuLlIHtC3Y0kEO23YRge8H9x1GCzLn28YX0H66pMkxuaeESFq4tKISKwdw==
+
+next-export-i18n@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/next-export-i18n/-/next-export-i18n-1.4.2.tgz#252e5ea2f1f61eb52e39bf490c5428dde7ebe249"
+  integrity sha512-EahkOZFG4zGBemwt6n8sbVbEaXhrvlE9JF6zc6Z2NoF6caxQPmFnVbRGfyZVQaUp2mKX/vK1ai2ZwuP79JeiVA==
+  dependencies:
+    mustache "^4.2.0"
 
 next@latest:
   version "12.1.0"
