@@ -4,7 +4,14 @@
 
 .background {
     background-image: url('../public/ukraine-bd-lg.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #000;
+    @apply bg-fixed bg-cover bg-black bg-no-repeat bg-center
+}
+[data-language-switcher][data-is-current='true'] {
+    text-decoration: underline;
+}
+h2 {
+    @apply text-2xl font-bold my-4
+}
+h3 {
+    @apply font-bold my-2
 }
