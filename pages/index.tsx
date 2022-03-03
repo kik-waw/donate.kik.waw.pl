@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                 </section>
             </div>
             <main className="flex w-full flex-1 flex-col items-center justify-center py-20 px-4 text-center">
-                <article className="max-w-4xl text-justify">
+                <article className="max-w-2xl text-justify">
                     <h2>{t('Club of Catholic Intelligentsia and Ukraine')}</h2>
                     <p>{t('Club of Catholic Intelligentsia (KIK) is an association')}</p>
                     <p>{t('Our collaboration with organisations')}</p>

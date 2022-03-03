@@ -7,11 +7,12 @@
     @apply bg-fixed bg-cover bg-black bg-no-repeat bg-center
 }
 [data-language-switcher][data-is-current='true'] {
-    text-decoration: underline;
+    text-decoration: underline
 }
+
 h2 {
-    @apply text-2xl font-bold my-4
+    @apply text-4xl font-bold mb-3 text-center
 }
 h3 {
-    @apply font-bold my-2
+    @apply text-3xl font-bold my-6 text-center
 }
