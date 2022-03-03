@@ -5,10 +5,10 @@ import type React from "react";
 
 const ButtonStyle = "bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 rounded-lg px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800";
 
-const Languages: React.FC = () => <div className="text-xl bg-opacity-20 bg-black">
-    <LanguageSwitcher lang='en'>EN</LanguageSwitcher>{" / "}
-    <LanguageSwitcher lang='pl'>PL</LanguageSwitcher>{" / "}
-    <LanguageSwitcher lang='de'>DE</LanguageSwitcher>
+const Languages: React.FC = () => <div className="text-xl h-full">
+    <LanguageSwitcher lang='en'>en</LanguageSwitcher>{" / "}
+    <LanguageSwitcher lang='pl'>pl</LanguageSwitcher>{" / "}
+    <LanguageSwitcher lang='de'>de</LanguageSwitcher>
 </div>
 
 const Home: NextPage = () => {
@@ -20,27 +20,24 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <div className="background w-full text-white text-center">
-                <nav id="header" className="w-full text-white py-1 lg:py-6">
-                    <div
-                        className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-2 lg:py-6"
-                    >
-                        <img src="./logo-kik-contra-md.png" alt="logo Klubu Inteligencji Katolickiej w Warszawie"
+                <nav id="header" className="max-w-5xl mx-auto flex flex-row flex-nowrap justify-between items-center p-2 lg:py-6">
+                    <img src="./logo-kik-contra-md.png" alt="logo Klubu Inteligencji Katolickiej w Warszawie"
                              height={100} width={144}/>
-                    </div>
+                    <Languages/>
                 </nav>
                 <section className="flex flex-col justify-between h-48 mb-24">
-                    <Languages/>
-                    <h1 className="text-6xl font-bold bg-opacity-20 px-6 bg-black">
-                        {t('Help ukraine relief efforts')}
+                    <h1 className="text-6xl font-bold px-6">
+                        {t('Help ukraine')}<br />
+                        {t('relief efforts')}
                     </h1>
-                    <div className={"text-2xl mt-4 flex flex-col justify-between"}>
+                    <div className={"text-3xl mt-4 flex flex-col justify-between"}>
                         <p className="pt-4 pb-2">
                             <a href="https://zrzutka.pl/en/eb8wg7/wplac" className={ButtonStyle}>
                                 {t('Donate now call to action')}
                             </a>
                         </p>
                         <p className="text-sm">
-                            powered by <a href="//zrzutka.pl" className="underline" rel="nofollow noopener">zrzutka.pl</a>
+                            {t('powered by')} <a href="//zrzutka.pl" className="underline" rel="nofollow noopener">zrzutka.pl</a>
                         </p>
                     </div>
                 </section>
