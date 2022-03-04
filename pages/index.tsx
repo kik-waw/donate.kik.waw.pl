@@ -1,7 +1,14 @@
 import type React from "react";
 import Head from 'next/head'
-import {LanguageSwitcher, useTranslation} from "next-export-i18n";
+import {LanguageSwitcher, useTranslation as origUseTranslation} from "next-export-i18n";
 import {useEffect, useState} from "react";
+
+const useTranslation = () => ({
+    t: (str: string): string => {
+        const {t} = origUseTranslation();
+        return t(str).replace(/(\b)([a-z])(\b\s)/,'$2&nbsp;')
+    }
+})
 
 const homepageURL = "https://www.kik.waw.pl/?no_redir=1";
 
@@ -36,15 +43,7 @@ const DonateButtonSection: React.FC = () => {
 
 const GoBackButton: React.FC = () => {
     const {t} = useTranslation();
-    const [fromKik, setFromKik] = useState(false);
-    useEffect(() => {
-        if(document.referrer.includes('/www.kik.waw.pl/')
-            || location.search.includes('force_back_btn')) {
-            setFromKik(true)
-        }
-    }, [])
-    const style = !fromKik ? "hidden" : "";
-    return <a href={homepageURL} className={style + " text-2xl text-center underline w-full order-last lg:order-none"}>{t('Go back to')} kik.waw.pl</a>
+    return <a href={homepageURL} className={"text-2xl text-center underline w-full order-last lg:order-none"}>{t('Go back to')} kik.waw.pl</a>
 };
 
 const Logo: React.FC = () => <a href={homepageURL} className="w-1/2 lg:w-full">
