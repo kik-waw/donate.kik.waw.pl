@@ -1,7 +1,6 @@
-import type {NextPage} from 'next'
+import type React from "react";
 import Head from 'next/head'
 import {LanguageSwitcher, useTranslation} from "next-export-i18n";
-import type React from "react";
 
 const ButtonStyle = "bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 rounded-lg px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800";
 
@@ -11,7 +10,7 @@ const Languages: React.FC = () => <div className="text-xl h-full">
     <LanguageSwitcher lang='de'>de</LanguageSwitcher>
 </div>
 
-const Home: NextPage = () => {
+export default () => {
     const {t} = useTranslation();
     return (
         <div className="flex min-h-screen flex-col items-center justify-center">
@@ -21,8 +20,8 @@ const Home: NextPage = () => {
             </Head>
             <div className="background w-full text-white text-center">
                 <nav id="header" className="max-w-5xl mx-auto flex flex-row flex-nowrap justify-between items-center p-2 lg:py-6">
-                    <img src="./logo-kik-contra-md.png" alt="logo Klubu Inteligencji Katolickiej w Warszawie"
-                             height={100} width={144}/>
+                    <img src="./kik-logo-rect.png" alt="logo Klubu Inteligencji Katolickiej w Warszawie"
+                             height={132} width={200}/>
                     <Languages/>
                 </nav>
                 <section className="flex flex-col justify-between h-48 mb-24">
@@ -57,6 +56,7 @@ const Home: NextPage = () => {
                     {t('Our organisation delivered vaccinations')}
                     <p>{t('In addition to our help and support for Ukraine')}</p>
                     <p>{t('The members of the KIK have been awarded')}</p>
+                    <p>{t('')}</p>
                 </article>
             </main>
 
@@ -67,5 +67,3 @@ const Home: NextPage = () => {
         </div>
     )
 }
-
-export default Home
