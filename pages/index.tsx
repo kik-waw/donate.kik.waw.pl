@@ -11,7 +11,7 @@ const Languages: React.FC = () => <div className="text-3xl h-full">
 
 const DonateNowButton: React.FC = () => {
     const style = "bg-green-700 text-white hover:bg-green-800 focus:ring-4 focus:ring-green-300 rounded-lg px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800";
-    const { t } = useTranslation();
+    const {t} = useTranslation();
     return <a href="https://zrzutka.pl/en/eb8wg7/wplac" className={style}>
         {t('Donate now call to action')}
     </a>;
@@ -21,7 +21,7 @@ const DonateButtonSection: React.FC = () => {
     const {t} = useTranslation();
     return <div className={"text-3xl mt-4 flex flex-col justify-between text-center"}>
         <p className="pt-4 pb-2">
-            <DonateNowButton />
+            <DonateNowButton/>
         </p>
         <p className="text-sm">
             {t('powered by')}&nbsp;
@@ -52,11 +52,16 @@ export default () => {
                         {t('Help ukraine')}<br/>
                         {t('relief efforts')}
                     </h1>
-                    <DonateButtonSection />
+                    <DonateButtonSection/>
+                    <p className="mt-6">
+                        <a href="#bank" className="underline">
+                            {t('Support us via a wire transfer')}
+                        </a>
+                    </p>
                 </section>
             </div>
-            <main className="flex w-full flex-1 flex-col items-center justify-center py-20 px-4 text-center">
-                <article className="max-w-2xl text-justify">
+            <main className="flex w-full flex-1 flex-col items-center justify-center text-center">
+                <article className="max-w-2xl text-justify py-20 px-4">
                     <h2>{t('Club of Catholic Intelligentsia and Ukraine')}</h2>
                     <p>{t('Club of Catholic Intelligentsia (KIK) is an association')}</p>
                     <p>{t('Our collaboration with organisations')}</p>
@@ -70,19 +75,30 @@ export default () => {
                     {t('Our organisation delivered vaccinations')}
                     <p>{t('In addition to our help and support for Ukraine')}</p>
                     <p>{t('The members of the KIK have been awarded')}</p>
-                    <h3>{t('Support us via a wire transfer')}</h3>
-                    <p className='mb-4'>KLUB INTELIGENCJI KATOLICKIEJ (CLUB OF CATHOLIC INTELLIGENTSIA) </p>
-                    <p className='mb-4'>mBank SWIFT: BREXPLPWXXX (BREXPLPWWA3 {t('in case of any problems')})</p>
-                    <p className='mb-4'>PLN IBAN:<br/>
-                        <code>PL69 1140 2062 0000 4445 3900 1005</code><br/>
-                        {t('Transfer title')}: darowizna na cele statutowe - ukraina
-                    </p>
-                    <p className='mb-4'>EUR IBAN:<br/>
-                        <code>PL47 1140 2062 0000 4445 3900 1013</code></p>
-                    <p className='mb-4'>USD IBAN:<br/>
-                        <code>PL90 1140 2062 0000 4445 3900 1015</code></p>
-                    <DonateButtonSection />
                 </article>
+                <section className="bg-indigo-100 w-full px-4 pb-12">
+                    <article id="bank" className="max-w-lg mx-auto text-left">
+                        <h3 className="">{t('Support us via a wire transfer')}</h3>
+                        <p className='mb-4'>
+                            {t('Klub Inteligencji Katolickiej')}
+                        </p>
+                        <p className='mb-4'>
+                            <strong>mBank SWIFT</strong>: BREXPLPWXXX <br />
+                            (BREXPLPWWA3 {t('in case of any problems')})
+                        </p>
+                        <p className='mb-4'><strong>PLN IBAN:</strong><br/>
+                            <code>PL69 1140 2062 0000 4445 3900 1005</code><br/>
+                            {t('Transfer title')}: darowizna na cele statutowe - ukraina
+                        </p>
+                        <p className='mb-4'><strong>EUR IBAN:</strong><br/>
+                            <code>PL47 1140 2062 0000 4445 3900 1013</code>
+                        </p>
+                        <p className='mb-12'><strong>USD IBAN:</strong><br/>
+                            <code>PL90 1140 2062 0000 4445 3900 1015</code>
+                        </p>
+                        <DonateButtonSection/>
+                    </article>
+                </section>
             </main>
 
             <footer className="flex h-24 w-full items-center justify-center border-t">
