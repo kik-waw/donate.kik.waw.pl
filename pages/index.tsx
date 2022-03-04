@@ -2,13 +2,35 @@ import type React from "react";
 import Head from 'next/head'
 import {LanguageSwitcher, useTranslation} from "next-export-i18n";
 
-const ButtonStyle = "bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 rounded-lg px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800";
 
-const Languages: React.FC = () => <div className="text-xl h-full">
+const Languages: React.FC = () => <div className="text-3xl h-full">
     <LanguageSwitcher lang='en'>en</LanguageSwitcher>{" / "}
     <LanguageSwitcher lang='pl'>pl</LanguageSwitcher>{" / "}
     <LanguageSwitcher lang='de'>de</LanguageSwitcher>
 </div>
+
+const DonateNowButton: React.FC = () => {
+    const style = "bg-green-700 text-white hover:bg-green-800 focus:ring-4 focus:ring-green-300 rounded-lg px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800";
+    const { t } = useTranslation();
+    return <a href="https://zrzutka.pl/en/eb8wg7/wplac" className={style}>
+        {t('Donate now call to action')}
+    </a>;
+}
+
+const DonateButtonSection: React.FC = () => {
+    const {t} = useTranslation();
+    return <div className={"text-3xl mt-4 flex flex-col justify-between text-center"}>
+        <p className="pt-4 pb-2">
+            <DonateNowButton />
+        </p>
+        <p className="text-sm">
+            {t('powered by')}&nbsp;
+            <a href="https://zrzutka.pl" className="underline" rel="nofollow noopener">
+                zrzutka.pl
+            </a>
+        </p>
+    </div>
+}
 
 export default () => {
     const {t} = useTranslation();
@@ -20,27 +42,17 @@ export default () => {
             </Head>
             <div className="background w-full text-white text-center">
                 <nav id="header"
-                     className="max-w-5xl mx-auto flex flex-row flex-nowrap justify-between items-center p-2 lg:py-6">
+                     className="max-w-5xl mx-auto flex flex-row flex-nowrap justify-between items-center p-4 lg:py-6">
                     <img src="./kik-logo-rect.png" alt="logo Klubu Inteligencji Katolickiej w Warszawie"
-                         height={132} width={200}/>
+                         className="logo"/>
                     <Languages/>
                 </nav>
                 <section className="flex flex-col justify-between h-48 mb-24">
-                    <h1 className="text-6xl font-bold px-6">
+                    <h1 className="text-3xl font-bold px-6 lg:text-6xl">
                         {t('Help ukraine')}<br/>
                         {t('relief efforts')}
                     </h1>
-                    <div className={"text-3xl mt-4 flex flex-col justify-between"}>
-                        <p className="pt-4 pb-2">
-                            <a href="https://zrzutka.pl/en/eb8wg7/wplac" className={ButtonStyle}>
-                                {t('Donate now call to action')}
-                            </a>
-                        </p>
-                        <p className="text-sm">
-                            {t('powered by')} <a href="//zrzutka.pl" className="underline"
-                                                 rel="nofollow noopener">zrzutka.pl</a>
-                        </p>
-                    </div>
+                    <DonateButtonSection />
                 </section>
             </div>
             <main className="flex w-full flex-1 flex-col items-center justify-center py-20 px-4 text-center">
@@ -61,20 +73,23 @@ export default () => {
                     <h3>{t('Support us via a wire transfer')}</h3>
                     <p className='mb-4'>KLUB INTELIGENCJI KATOLICKIEJ (CLUB OF CATHOLIC INTELLIGENTSIA) </p>
                     <p className='mb-4'>mBank SWIFT: BREXPLPWXXX (BREXPLPWWA3 {t('in case of any problems')})</p>
-                    <p className='mb-4'>PLN:<br/>
+                    <p className='mb-4'>PLN IBAN:<br/>
                         <code>PL69 1140 2062 0000 4445 3900 1005</code><br/>
                         {t('Transfer title')}: darowizna na cele statutowe - ukraina
                     </p>
-                    <p className='mb-4'>EUR: <br />
+                    <p className='mb-4'>EUR IBAN:<br/>
                         <code>PL47 1140 2062 0000 4445 3900 1013</code></p>
-                    <p className='mb-4'>USD: <br />
+                    <p className='mb-4'>USD IBAN:<br/>
                         <code>PL90 1140 2062 0000 4445 3900 1015</code></p>
+                    <DonateButtonSection />
                 </article>
             </main>
 
             <footer className="flex h-24 w-full items-center justify-center border-t">
                 {t('Organized by')}&nbsp;
-                <a href="https://kik.waw.pl" className={"underline"}>{t('Klub Inteligencji Katolickiej')}</a>
+                <a href="https://kik.waw.pl/?donate_redir=0" className={"underline"}>
+                    {t('Klub Inteligencji Katolickiej')}
+                </a>
             </footer>
         </div>
     )
