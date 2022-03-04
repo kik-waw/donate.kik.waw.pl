@@ -19,13 +19,17 @@ h3 {
     @apply text-3xl font-bold mb-6 mt-24 text-center
 }
 
-.logo {
+img.logo {
     height: 66px;
     width: 100px;
 }
 
+nav.header {
+    @apply max-w-5xl mx-auto flex flex-row flex-nowrap justify-between items-center p-4 lg:py-6
+}
+
 @media screen(lg) {
-    .logo {
+    img.logo {
         height: 132px;
         width: 200px;
     }

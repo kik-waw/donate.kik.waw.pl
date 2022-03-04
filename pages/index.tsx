@@ -1,9 +1,11 @@
 import type React from "react";
 import Head from 'next/head'
 import {LanguageSwitcher, useTranslation} from "next-export-i18n";
+import {useEffect, useState} from "react";
 
+const homepageURL = "https://www.kik.waw.pl/?no_redir=1";
 
-const Languages: React.FC = () => <div className="text-3xl h-full">
+const Languages: React.FC = () => <div className="text-3xl h-full w-full text-right">
     <LanguageSwitcher lang='en'>en</LanguageSwitcher>{" / "}
     <LanguageSwitcher lang='pl'>pl</LanguageSwitcher>{" / "}
     <LanguageSwitcher lang='de'>de</LanguageSwitcher>
@@ -30,7 +32,24 @@ const DonateButtonSection: React.FC = () => {
             </a>
         </p>
     </div>
-}
+};
+
+const GoBackButton: React.FC = () => {
+    const {t} = useTranslation();
+    const [fromKik, setFromKik] = useState(false);
+    useEffect(() => {
+        if(document.referrer.includes('/www.kik.waw.pl/')
+            || location.search.includes('force_back_btn')) {
+            setFromKik(true)
+        }
+    }, [])
+    const style = !fromKik ? "hidden" : "";
+    return <a href={homepageURL} className={style + " text-2xl text-center underline w-full"}>{t('Go back to')} kik.waw.pl</a>
+};
+
+const Logo: React.FC = () => <a href={homepageURL} className="w-full">
+    <img src="./kik-logo-rect.png" alt="logo Klubu Inteligencji Katolickiej w Warszawie" className="logo"/>
+</a>
 
 export default () => {
     const {t} = useTranslation();
@@ -41,11 +60,10 @@ export default () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <div className="background w-full text-white text-center">
-                <nav id="header"
-                     className="max-w-5xl mx-auto flex flex-row flex-nowrap justify-between items-center p-4 lg:py-6">
-                    <img src="./kik-logo-rect.png" alt="logo Klubu Inteligencji Katolickiej w Warszawie"
-                         className="logo"/>
-                    <Languages/>
+                <nav id="header" className="header">
+                    <Logo />
+                    <GoBackButton />
+                    <Languages />
                 </nav>
                 <section className="flex flex-col justify-between h-48 mb-24">
                     <h1 className="text-3xl font-bold px-6 lg:text-6xl">
@@ -103,7 +121,7 @@ export default () => {
 
             <footer className="flex h-24 w-full items-center justify-center border-t">
                 {t('Organized by')}&nbsp;
-                <a href="https://www.kik.waw.pl/?donate_redir=0" className={"underline"}>
+                <a href={homepageURL} className={"underline"}>
                     {t('Klub Inteligencji Katolickiej')}
                 </a>
             </footer>
