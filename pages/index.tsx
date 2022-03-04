@@ -37,7 +37,7 @@ export default () => {
     return (
         <div className="flex min-h-screen flex-col items-center justify-center">
             <Head>
-                <title>{t('Donate to KIK')}</title>
+                <title>{t('Help ukraine')} {t('relief efforts')} | {t('Klub Inteligencji Katolickiej')}</title>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <div className="background w-full text-white text-center">
@@ -103,7 +103,7 @@ export default () => {
 
             <footer className="flex h-24 w-full items-center justify-center border-t">
                 {t('Organized by')}&nbsp;
-                <a href="https://kik.waw.pl/?donate_redir=0" className={"underline"}>
+                <a href="https://www.kik.waw.pl/?donate_redir=0" className={"underline"}>
                     {t('Klub Inteligencji Katolickiej')}
                 </a>
             </footer>
