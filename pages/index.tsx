@@ -73,7 +73,7 @@ export default () => {
                     <DonateButtonSection/>
                     <p className="mt-6">
                         <a href="#bank" className="underline">
-                            {t('Support us via a wire transfer')}
+                            {t('Support us via a wire transfer!')}
                         </a>
                     </p>
                 </section>
