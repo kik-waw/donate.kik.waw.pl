@@ -1,14 +1,8 @@
 import type React from "react";
 import Head from 'next/head'
-import {LanguageSwitcher, useTranslation as origUseTranslation} from "next-export-i18n";
+import {LanguageSwitcher, useTranslation} from "next-export-i18n";
 import {useEffect, useState} from "react";
 
-const useTranslation = () => ({
-    t: (str: string): string => {
-        const {t} = origUseTranslation();
-        return t(str).replace(/(\b)([a-z])(\b\s)/,'$2&nbsp;')
-    }
-})
 
 const homepageURL = "https://www.kik.waw.pl/?no_redir=1";
 
