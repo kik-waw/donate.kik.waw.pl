@@ -95,14 +95,13 @@ export default () => {
                     <p>{t('The members of the KIK have been awarded')}</p>
                 </article>
                 <section className="bg-indigo-100 w-full px-4 pb-12">
+                    <h3 className="max-w-2xl mx-auto lg:text-6xl">{t('Support us via a wire transfer!')}</h3>
                     <article id="bank" className="max-w-lg mx-auto text-left">
-                        <h3 className="text-4xl lg:text-6xl">{t('Support us via a wire transfer')}</h3>
                         <p className='mb-4'>
                             {t('Klub Inteligencji Katolickiej')}
                         </p>
                         <p className='mb-4'>
-                            <strong>mBank SWIFT</strong>: BREXPLPWXXX <br />
-                            (BREXPLPWWA3 {t('in case of any problems')})
+                            <strong>mBank SWIFT</strong>: BREXPLPWXXX
                         </p>
                         <p className='mb-4'><strong>PLN IBAN:</strong><br/>
                             <code>PL69 1140 2062 0000 4445 3900 1005</code><br/>
