@@ -19,14 +19,15 @@ export default () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <div className="background w-full text-white text-center">
-                <nav id="header" className="max-w-5xl mx-auto flex flex-row flex-nowrap justify-between items-center p-2 lg:py-6">
+                <nav id="header"
+                     className="max-w-5xl mx-auto flex flex-row flex-nowrap justify-between items-center p-2 lg:py-6">
                     <img src="./kik-logo-rect.png" alt="logo Klubu Inteligencji Katolickiej w Warszawie"
-                             height={132} width={200}/>
+                         height={132} width={200}/>
                     <Languages/>
                 </nav>
                 <section className="flex flex-col justify-between h-48 mb-24">
                     <h1 className="text-6xl font-bold px-6">
-                        {t('Help ukraine')}<br />
+                        {t('Help ukraine')}<br/>
                         {t('relief efforts')}
                     </h1>
                     <div className={"text-3xl mt-4 flex flex-col justify-between"}>
@@ -36,7 +37,8 @@ export default () => {
                             </a>
                         </p>
                         <p className="text-sm">
-                            {t('powered by')} <a href="//zrzutka.pl" className="underline" rel="nofollow noopener">zrzutka.pl</a>
+                            {t('powered by')} <a href="//zrzutka.pl" className="underline"
+                                                 rel="nofollow noopener">zrzutka.pl</a>
                         </p>
                     </div>
                 </section>
@@ -56,7 +58,17 @@ export default () => {
                     {t('Our organisation delivered vaccinations')}
                     <p>{t('In addition to our help and support for Ukraine')}</p>
                     <p>{t('The members of the KIK have been awarded')}</p>
-                    <p>{t('')}</p>
+                    <h3>{t('Support us via a wire transfer')}</h3>
+                    <p className='mb-4'>KLUB INTELIGENCJI KATOLICKIEJ (CLUB OF CATHOLIC INTELLIGENTSIA) </p>
+                    <p className='mb-4'>mBank SWIFT: BREXPLPWXXX (BREXPLPWWA3 {t('in case of any problems')})</p>
+                    <p className='mb-4'>PLN:<br/>
+                        <code>PL69 1140 2062 0000 4445 3900 1005</code><br/>
+                        {t('Transfer title')}: darowizna na cele statutowe - ukraina
+                    </p>
+                    <p className='mb-4'>EUR: <br />
+                        <code>PL47 1140 2062 0000 4445 3900 1013</code></p>
+                    <p className='mb-4'>USD: <br />
+                        <code>PL90 1140 2062 0000 4445 3900 1015</code></p>
                 </article>
             </main>
 
