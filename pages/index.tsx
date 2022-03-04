@@ -5,7 +5,7 @@ import {useEffect, useState} from "react";
 
 const homepageURL = "https://www.kik.waw.pl/?no_redir=1";
 
-const Languages: React.FC = () => <div className="text-3xl h-full w-full text-right">
+const Languages: React.FC = () => <div className="text-3xl h-full w-1/2 lg:w-full text-right">
     <LanguageSwitcher lang='en'>en</LanguageSwitcher>{" / "}
     <LanguageSwitcher lang='pl'>pl</LanguageSwitcher>{" / "}
     <LanguageSwitcher lang='de'>de</LanguageSwitcher>
@@ -44,10 +44,10 @@ const GoBackButton: React.FC = () => {
         }
     }, [])
     const style = !fromKik ? "hidden" : "";
-    return <a href={homepageURL} className={style + " text-2xl text-center underline w-full"}>{t('Go back to')} kik.waw.pl</a>
+    return <a href={homepageURL} className={style + " text-2xl text-center underline w-full order-last lg:order-none"}>{t('Go back to')} kik.waw.pl</a>
 };
 
-const Logo: React.FC = () => <a href={homepageURL} className="w-full">
+const Logo: React.FC = () => <a href={homepageURL} className="w-1/2 lg:w-full">
     <img src="./kik-logo-rect.png" alt="logo Klubu Inteligencji Katolickiej w Warszawie" className="logo"/>
 </a>
 
@@ -65,7 +65,7 @@ export default () => {
                     <GoBackButton />
                     <Languages />
                 </nav>
-                <section className="flex flex-col justify-between h-48 mb-24">
+                <section className="flex flex-col justify-between mb-24">
                     <h1 className="text-3xl font-bold px-6 lg:text-6xl">
                         {t('Help ukraine')}<br/>
                         {t('relief efforts')}
