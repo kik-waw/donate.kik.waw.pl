@@ -96,7 +96,7 @@ export default () => {
                 </article>
                 <section className="bg-indigo-100 w-full px-4 pb-12">
                     <article id="bank" className="max-w-lg mx-auto text-left">
-                        <h3 className="">{t('Support us via a wire transfer')}</h3>
+                        <h3 className="text-4xl lg:text-6xl">{t('Support us via a wire transfer')}</h3>
                         <p className='mb-4'>
                             {t('Klub Inteligencji Katolickiej')}
                         </p>
