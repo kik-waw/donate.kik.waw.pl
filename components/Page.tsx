@@ -3,7 +3,7 @@ import Link from "next/link";
 import {useRouter} from "next/router";
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import useNavigatorLanguage from "./useNavigatorLanguage";
+import getNavigatorLanguage from "./getNavigatorLanguage";
 import {homepageURL} from "../config";
 
 const LanguageLink: React.FC = ({ children: locale }) => {
@@ -69,7 +69,7 @@ const Page: React.FC<PageProps> = ({ posts, bottomText, topText, translations })
     const router = useRouter();
 
     React.useEffect(() => {
-        const language = useNavigatorLanguage();
+        const language = getNavigatorLanguage();
         if (language !== router.query.locale) {
             router.push(`/${language}`);
         }

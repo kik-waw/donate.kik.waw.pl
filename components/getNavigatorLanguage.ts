@@ -1,6 +1,6 @@
 import {defaultLang, locales} from "../config";
 
-export default function useNavigatorLanguage    (): string {
+export default function getNavigatorLanguage(): string {
     if (!window?.navigator?.language || !window?.navigator?.languages) {
         return defaultLang;
     }
