@@ -95,11 +95,11 @@ const Page: React.FC<PageProps> = ({ posts, bottomText, topText, translations })
                 </section>
             </div>
             <main className="flex w-full flex-1 flex-col items-center justify-center text-center">
-                <div className="max-w-6xl flex flex-nowrap py-12">
-                    <div className="w-1/2 top-text">
+                <div className="max-w-6xl flex flex-col-reverse flex-nowrap py-12 px-4 lg:flex-row">
+                    <div className="w-full top-text">
                         <ReactMarkdown>{topText}</ReactMarkdown>
                     </div>
-                    <div className="w-1/2">
+                    <div className="w-full">
                         {posts.map((t, i) => <div key={`news_${i}`} className="border-2 border-gray-300 p-4 text-left m-4" dangerouslySetInnerHTML={{__html: t}} />)}
                         <a href='https://www.facebook.com/KIK.Warszawa' className='underline text-center'>{t('Follow us on facebook')}</a>
                     </div>
