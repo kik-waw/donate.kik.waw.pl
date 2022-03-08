@@ -10,8 +10,7 @@
 
 # next.js
 /.next/
-/out/**
-!out/_redirects
+/out/
 
 # production
 /build
