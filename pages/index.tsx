@@ -1,8 +1,8 @@
 import type React from "react";
 import Head from 'next/head'
 import {LanguageSwitcher, useTranslation} from "next-export-i18n";
-import {useEffect, useState} from "react";
-
+import {fetchFacebookPosts} from "../components/scraper";
+import { GetStaticPropsContext} from "next";
 
 const homepageURL = "https://www.kik.waw.pl/?no_redir=1";
 
@@ -44,7 +44,7 @@ const Logo: React.FC = () => <a href={homepageURL} className="w-1/2 lg:w-full">
     <img src="./kik-logo-rect.png" alt="logo Klubu Inteligencji Katolickiej w Warszawie" className="logo"/>
 </a>
 
-export default () => {
+export default ({ posts }: { posts: string[] }) => {
     const {t} = useTranslation();
     return (
         <div className="flex min-h-screen flex-col items-center justify-center">
@@ -72,6 +72,16 @@ export default () => {
                 </section>
             </div>
             <main className="flex w-full flex-1 flex-col items-center justify-center text-center">
+                <div className="flex flex-nowrap">
+                    <div className="w-1/2">
+
+                    </div>
+                    <div className="w-1/2">
+                        <h3>{t('News')}</h3>
+                        {posts.map(t => <div className="border-2 border-gray-300 p-4 text-left m-4" dangerouslySetInnerHTML={{__html: t}} />)}
+                        <a href='https://www.facebook.com/KIK.Warszawa' className='underline text-center'>{t('Follow us on facebook')}</a>
+                    </div>
+                </div>
                 <article className="max-w-2xl text-justify py-20 px-4">
                     <h2>{t('Club of Catholic Intelligentsia and Ukraine')}</h2>
                     <p>{t('Club of Catholic Intelligentsia (KIK) is an association')}</p>
@@ -119,4 +129,12 @@ export default () => {
             </footer>
         </div>
     )
+}
+
+export async function getStaticProps(context: GetStaticPropsContext) {
+    return {
+        props: {
+            posts: await fetchFacebookPosts()
+        }
+    }
 }
