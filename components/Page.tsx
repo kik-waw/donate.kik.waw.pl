@@ -1,6 +1,6 @@
 import type React from "react";
 import Head from 'next/head'
-import {LanguageSwitcher, useTranslation} from "next-export-i18n";
+import {LanguageSwitcher, useLanguageQuery, useTranslation} from "next-export-i18n";
 import {fetchFacebookPosts} from "../components/scraper";
 import {GetStaticPropsContext} from "next";
 import ReactMarkdown from "react-markdown";
@@ -82,7 +82,7 @@ export default ({ posts, bottomText, topText }: Created) => {
             <main className="flex w-full flex-1 flex-col items-center justify-center text-center">
                 <div className="flex flex-nowrap">
                     <div className="w-1/2">
-                        <ReactMarkdown>{topText}</ReactMarkdown>
+                        <ReactMarkdown>{topText[query]}</ReactMarkdown>
                     </div>
                     <div className="w-1/2">
                         <h3>{t('News')}</h3>
@@ -131,7 +131,10 @@ export async function getStaticProps(context: GetStaticPropsContext): Promise<{ 
     return {
         props: {
             posts: await fetchFacebookPosts(),
-            bottomText: fs.readFileSync('./content/bottom-text.pl.md', {encoding: 'utf8'}),
+            bottomText: {
+                pl: fs.readFileSync('./content/bottom-text.pl.md', {encoding: 'utf8'}),
+                // en: fs.readFileSync('./')
+            },
             topText: fs.readFileSync('./content/top-text.pl.md', {encoding: 'utf8'}),
         }
     }
