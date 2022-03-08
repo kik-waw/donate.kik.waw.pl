@@ -2,7 +2,9 @@ import type React from "react";
 import Head from 'next/head'
 import {LanguageSwitcher, useTranslation} from "next-export-i18n";
 import {fetchFacebookPosts} from "../components/scraper";
-import { GetStaticPropsContext} from "next";
+import {GetStaticPropsContext} from "next";
+import ReactMarkdown from "react-markdown";
+import * as fs from 'fs';
 
 const homepageURL = "https://www.kik.waw.pl/?no_redir=1";
 
@@ -44,13 +46,19 @@ const Logo: React.FC = () => <a href={homepageURL} className="w-1/2 lg:w-full">
     <img src="./kik-logo-rect.png" alt="logo Klubu Inteligencji Katolickiej w Warszawie" className="logo"/>
 </a>
 
-export default ({ posts }: { posts: string[] }) => {
+type Created = {
+    posts: string[];
+    bottomText: string;
+    topText: string;
+};
+export default ({ posts, bottomText, topText }: Created) => {
     const {t} = useTranslation();
     return (
         <div className="flex min-h-screen flex-col items-center justify-center">
             <Head>
                 <title>{t('Help ukraine')} {t('relief efforts')} | {t('Klub Inteligencji Katolickiej')}</title>
                 <link rel="icon" href="/favicon.ico"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             </Head>
             <div className="background w-full text-white text-center">
                 <nav id="header" className="header">
@@ -74,7 +82,7 @@ export default ({ posts }: { posts: string[] }) => {
             <main className="flex w-full flex-1 flex-col items-center justify-center text-center">
                 <div className="flex flex-nowrap">
                     <div className="w-1/2">
-
+                        <ReactMarkdown>{topText}</ReactMarkdown>
                     </div>
                     <div className="w-1/2">
                         <h3>{t('News')}</h3>
@@ -83,19 +91,7 @@ export default ({ posts }: { posts: string[] }) => {
                     </div>
                 </div>
                 <article className="max-w-2xl text-justify py-20 px-4">
-                    <h2>{t('Club of Catholic Intelligentsia and Ukraine')}</h2>
-                    <p>{t('Club of Catholic Intelligentsia (KIK) is an association')}</p>
-                    <p>{t('Our collaboration with organisations')}</p>
-                    <h3>{t('2014 EuroMajdan and War in the East')}</h3>
-                    {t('During large scale protests in Ukraine in 2014')}
-                    {t('Also, we supported heavily wounded who thanks')}
-                    {t('Since 2014 we have been organising in Poland')}
-                    <h3>{t('Culture, Dialogue and Education')}</h3>
-                    {t('KIK organised - together with Ukrainian organisations')}
-                    <h3>{t('Medical Help and Charity')}</h3>
-                    {t('Our organisation delivered vaccinations')}
-                    <p>{t('In addition to our help and support for Ukraine')}</p>
-                    <p>{t('The members of the KIK have been awarded')}</p>
+                    <ReactMarkdown>{bottomText}</ReactMarkdown>
                 </article>
                 <section className="bg-indigo-100 w-full px-4 pb-12">
                     <h3 className="max-w-2xl mx-auto lg:text-6xl">{t('Support us via a wire transfer!')}</h3>
@@ -131,10 +127,13 @@ export default ({ posts }: { posts: string[] }) => {
     )
 }
 
-export async function getStaticProps(context: GetStaticPropsContext) {
+export async function getStaticProps(context: GetStaticPropsContext): Promise<{ props: Created; }> {
     return {
         props: {
-            posts: await fetchFacebookPosts()
+            posts: await fetchFacebookPosts(),
+            bottomText: fs.readFileSync('./content/bottom-text.pl.md', {encoding: 'utf8'}),
+            topText: fs.readFileSync('./content/top-text.pl.md', {encoding: 'utf8'}),
         }
     }
 }
+

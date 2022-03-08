@@ -4,7 +4,7 @@
 
 .background {
     background-image: url('../public/ukraine-bd-lg.jpg');
-    @apply bg-fixed bg-cover bg-black bg-no-repeat bg-center
+    @apply bg-cover bg-black bg-no-repeat bg-center
 }
 
 [data-language-switcher][data-is-current='true'] {
