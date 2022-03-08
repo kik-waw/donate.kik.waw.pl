@@ -65,7 +65,8 @@ export type PageProps = {
     topText: string;
     translations: Record<string, string>;
 };
-export default ({ posts, bottomText, topText, translations }: PageProps) => {
+
+const Page: React.FC<PageProps> = ({ posts, bottomText, topText, translations }) => {
     const t = (key: string): string => translations[key] || key;
 
     return (
@@ -143,5 +144,7 @@ export default ({ posts, bottomText, topText, translations }: PageProps) => {
         </div>
     )
 }
+
+export default Page
 
 

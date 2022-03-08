@@ -1,5 +1,5 @@
 import React from "react";
-import {GetStaticPaths, GetStaticProps} from "next";
+import {GetStaticPaths, GetStaticProps, NextPage} from "next";
 import fs from "fs";
 import Page, {type PageProps} from "../components/Page";
 import {fetchFacebookPosts} from "../components/scraper";
@@ -39,8 +39,9 @@ const getStaticProps: GetStaticProps = async ({ params }) => {
     }
 }
 
-export default (props: PageProps) => <Page {...props} />;
+const PageWithLocale: NextPage<PageProps> = (props) => <Page {...props} />;
 
+export default PageWithLocale;
 export {
     getStaticProps,
     getStaticPaths,
