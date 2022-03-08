@@ -7,7 +7,7 @@ import {fetchFacebookPosts} from "../components/scraper";
 const getStaticPaths: GetStaticPaths = () => {
     return {
         paths: ['pl', 'en', 'de'].map(locale => ({params: {locale}})),
-        fallback: true
+        fallback: false
     }
 };
 
@@ -43,5 +43,5 @@ export default (props: PageProps) => <Page {...props} />;
 
 export {
     getStaticProps,
-    // getStaticPaths,
+    getStaticPaths,
 };

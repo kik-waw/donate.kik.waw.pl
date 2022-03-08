@@ -1,16 +1,23 @@
 import {GetStaticPropsContext} from "next";
 import Head from 'next/head'
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import {fetchFacebookPosts} from "./scraper";
 
 const homepageURL = "https://www.kik.waw.pl/?no_redir=1";
 
+const LanguageLink: React.FC = ({ children: locale }) => {
+    const { query } = useRouter();
+    const isActive = query.locale === locale;
+    return <Link href={`/${locale}`} passHref><a className={isActive ? 'underline' : ''}>{locale}</a></Link>;
+};
+
 const Languages: React.FC = () => <div className="text-3xl h-full w-1/2 lg:w-full text-right">
-    <Link href={"/en"}>en</Link>{" / "}
-    <Link href='/pl'>pl</Link>{" / "}
-    <Link href='/de'>de</Link>
+    <LanguageLink>en</LanguageLink>{" / "}
+    <LanguageLink>pl</LanguageLink>{" / "}
+    <LanguageLink>de</LanguageLink>
 </div>
 
 const TranslationContext = React.createContext((t: string): string => (''));
@@ -59,7 +66,7 @@ export type PageProps = {
     translations: Record<string, string>;
 };
 export default ({ posts, bottomText, topText, translations }: PageProps) => {
-    const t = (key: string): string => translations[key];
+    const t = (key: string): string => translations[key] || key;
 
     return (
         <div className="flex min-h-screen flex-col items-center justify-center">
@@ -95,7 +102,7 @@ export default ({ posts, bottomText, topText, translations }: PageProps) => {
                     </div>
                     <div className="w-1/2">
                         <h3>{t('News')}</h3>
-                        {posts.map(t => <div className="border-2 border-gray-300 p-4 text-left m-4" dangerouslySetInnerHTML={{__html: t}} />)}
+                        {posts.map((t, i) => <div key={`news_${i}`} className="border-2 border-gray-300 p-4 text-left m-4" dangerouslySetInnerHTML={{__html: t}} />)}
                         <a href='https://www.facebook.com/KIK.Warszawa' className='underline text-center'>{t('Follow us on facebook')}</a>
                     </div>
                 </div>
