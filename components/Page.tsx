@@ -1,18 +1,24 @@
-import type React from "react";
-import Head from 'next/head'
-import {LanguageSwitcher, useLanguageQuery, useTranslation} from "next-export-i18n";
-import {fetchFacebookPosts} from "../components/scraper";
 import {GetStaticPropsContext} from "next";
+import Head from 'next/head'
+import Link from "next/link";
+import React from "react";
 import ReactMarkdown from "react-markdown";
-import * as fs from 'fs';
+import {fetchFacebookPosts} from "./scraper";
 
 const homepageURL = "https://www.kik.waw.pl/?no_redir=1";
 
 const Languages: React.FC = () => <div className="text-3xl h-full w-1/2 lg:w-full text-right">
-    <LanguageSwitcher lang='en'>en</LanguageSwitcher>{" / "}
-    <LanguageSwitcher lang='pl'>pl</LanguageSwitcher>{" / "}
-    <LanguageSwitcher lang='de'>de</LanguageSwitcher>
+    <Link href={"/en"}>en</Link>{" / "}
+    <Link href='/pl'>pl</Link>{" / "}
+    <Link href='/de'>de</Link>
 </div>
+
+const TranslationContext = React.createContext((t: string): string => (''));
+
+const useTranslation = () => {
+    const t = React.useContext(TranslationContext);
+    return { t };
+}
 
 const DonateNowButton: React.FC = () => {
     const style = "bg-green-700 text-white hover:bg-green-800 focus:ring-4 focus:ring-green-300 rounded-lg px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800";
@@ -46,15 +52,18 @@ const Logo: React.FC = () => <a href={homepageURL} className="w-1/2 lg:w-full">
     <img src="./kik-logo-rect.png" alt="logo Klubu Inteligencji Katolickiej w Warszawie" className="logo"/>
 </a>
 
-type Created = {
+export type PageProps = {
     posts: string[];
     bottomText: string;
     topText: string;
+    translations: Record<string, string>;
 };
-export default ({ posts, bottomText, topText }: Created) => {
-    const {t} = useTranslation();
+export default ({ posts, bottomText, topText, translations }: PageProps) => {
+    const t = (key: string): string => translations[key];
+
     return (
         <div className="flex min-h-screen flex-col items-center justify-center">
+            <TranslationContext.Provider value={t}>
             <Head>
                 <title>{t('Help ukraine')} {t('relief efforts')} | {t('Klub Inteligencji Katolickiej')}</title>
                 <link rel="icon" href="/favicon.ico"/>
@@ -82,7 +91,7 @@ export default ({ posts, bottomText, topText }: Created) => {
             <main className="flex w-full flex-1 flex-col items-center justify-center text-center">
                 <div className="flex flex-nowrap">
                     <div className="w-1/2">
-                        <ReactMarkdown>{topText[query]}</ReactMarkdown>
+                        <ReactMarkdown>{topText}</ReactMarkdown>
                     </div>
                     <div className="w-1/2">
                         <h3>{t('News')}</h3>
@@ -123,20 +132,9 @@ export default ({ posts, bottomText, topText }: Created) => {
                     {t('Klub Inteligencji Katolickiej')}
                 </a>
             </footer>
+        </TranslationContext.Provider>
         </div>
     )
 }
 
-export async function getStaticProps(context: GetStaticPropsContext): Promise<{ props: Created; }> {
-    return {
-        props: {
-            posts: await fetchFacebookPosts(),
-            bottomText: {
-                pl: fs.readFileSync('./content/bottom-text.pl.md', {encoding: 'utf8'}),
-                // en: fs.readFileSync('./')
-            },
-            topText: fs.readFileSync('./content/top-text.pl.md', {encoding: 'utf8'}),
-        }
-    }
-}
 

@@ -1,6 +1,7 @@
 Od pierwszych dni zbrodniczej napaści na Ukrainę pomagamy - na Ukrainie, na granicy i w
 Polsce. Prosimy – wesprzyj nasze działania, Ukraina nie może zostać sama.
-Co robimy:
+
+### Co robimy:
 
 - przekazujemy pomoc rzeczową służbom medycznym na Ukrainie;
 - ewakuujemy z terenów objętych wojną dzieci z domów dziecka, w tym niepełnosprawne;
