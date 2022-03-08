@@ -3,10 +3,11 @@ import {GetStaticPaths, GetStaticProps, NextPage} from "next";
 import fs from "fs";
 import Page, {type PageProps} from "../components/Page";
 import {fetchFacebookPosts} from "../components/scraper";
+import {locales} from "../config";
 
 const getStaticPaths: GetStaticPaths = () => {
     return {
-        paths: ['pl', 'en', 'de'].map(locale => ({params: {locale}})),
+        paths: locales.map(locale => ({params: {locale}})),
         fallback: false
     }
 };

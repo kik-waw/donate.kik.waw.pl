@@ -1,12 +1,10 @@
-import {GetStaticPropsContext} from "next";
 import Head from 'next/head'
 import Link from "next/link";
-import { useRouter } from "next/router";
+import {useRouter} from "next/router";
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import {fetchFacebookPosts} from "./scraper";
-
-const homepageURL = "https://www.kik.waw.pl/?no_redir=1";
+import useNavigatorLanguage from "./useNavigatorLanguage";
+import {homepageURL} from "../config";
 
 const LanguageLink: React.FC = ({ children: locale }) => {
     const { query } = useRouter();
@@ -68,7 +66,14 @@ export type PageProps = {
 
 const Page: React.FC<PageProps> = ({ posts, bottomText, topText, translations }) => {
     const t = (key: string): string => translations[key] || key;
+    const router = useRouter();
 
+    React.useEffect(() => {
+        const language = useNavigatorLanguage();
+        if (language !== router.query.locale) {
+            router.push(`/${language}`);
+        }
+    });
     return (
         <div className="flex min-h-screen flex-col items-center justify-center">
             <TranslationContext.Provider value={t}>
