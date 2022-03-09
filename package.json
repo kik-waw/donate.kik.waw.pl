@@ -2,24 +2,46 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
+    "lint": "next lint",
     "start": "next start",
     "next": "next"
   },
   "dependencies": {
+    "@types/node-fetch": "^2.6.1",
+    "cheerio": "^1.0.0-rc.10",
+    "deepl": "^1.0.13",
     "next": "latest",
-    "next-export-i18n": "^1.4.2",
+    "node-fetch": "^3.2.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-markdown": "^8.0.0"
   },
   "devDependencies": {
     "@types/node": "17.0.4",
     "@types/react": "17.0.38",
     "autoprefixer": "^10.4.0",
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "postcss": "^8.4.5",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.1",
     "tailwindcss": "^3.0.7",
     "typescript": "4.5.4"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
+  "eslintConfig": {
+    "extends": "next/core-web-vitals",
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "@next/next/no-img-element": "off"
+    }
   }
 }
