@@ -45,6 +45,12 @@ Dodatkowo krótkie teksty z UI są z `./content/strings.[locale].json` dla każd
 
 Wersje językowe są zdefiniowane w `./config.ts`
 
+#### Domyślny język
+
+Domyślnym językiem i renderowanym dla ścieżki `/` jest `en` (zobacz `./pages/index.tsx`). Jednak mechanizm w JavaScript `./components/getNavigatorLanguage.ts` wykrywa język użytkownika i zwraca język w którym ma być renderowana strona przekierowując użytkownika za pomocą `next/router`, więc nawigując na stronę główną na początku "mignie" nam angielski a potem załaduje się odpowiedni język. To jest spodziewane zachowanie.
+
+Potencjalnym usprawnieniem będzie przekierowanie po stronie serwera na podstawie `Accept-Language` headera. Co może jest do osiągnięcia w CloudFlare Pages ale jeszcze nie zostało sprawdzone.
+
 #### Dodawanie nowej wersji językowej
 
 - Dodaj odpowiednie pliki markdown i json w `./content`
