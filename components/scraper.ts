@@ -1,12 +1,17 @@
 import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 import translate, {DeeplLanguages} from 'deepl';
+import {fbPostKeywords} from "../config";
 
 function parsePostsFromPageSource(responseBody: string): string[] {
     const $ = cheerio.load(responseBody.slice(responseBody.indexOf('<html')));
     return $('[data-ft][id] span:has(p)')
         .map(function () {
             return $(this).parent().html()?.replace(/href="/, 'href="https://www.facebook.com')
+        })
+        .filter(function () {
+            const text = $(this).text().toLowerCase();
+            return fbPostKeywords.some(keyword => text.includes(keyword));
         }).get();
 }
 
@@ -16,7 +21,7 @@ export async function fetchFacebookPosts(locale: string): Promise<string[]> {
             'User-Agent': 'curl/7.0.52',
         }
     });
-    const { DEEPL_API_KEY } = process.env;
+    const {DEEPL_API_KEY} = process.env;
     const content = await response.text();
     const posts = parsePostsFromPageSource(content);
     if (!DEEPL_API_KEY) {
@@ -31,6 +36,6 @@ export async function fetchFacebookPosts(locale: string): Promise<string[]> {
             auth_key: DEEPL_API_KEY,
         })
     ))
-    return translatedPosts.flatMap(({ data }) => data.translations.map(({ text }) => text));
+    return translatedPosts.flatMap(({data}) => data.translations.map(({text}) => text));
 }
 
