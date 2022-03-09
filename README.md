@@ -21,7 +21,7 @@ I serwowany jest folder `./out`, to pozwoli w prosty sposób się ew. przenieś�
 
 ## Development
 
-Oparty o Node.js, Next.js, TypeScript i Tailwindcss, oraz tłumaczenia ogarnięte przez `next-export-i18n`.
+Oparty o Node.js, Next.js, TypeScript i Tailwindcss.
 
 Do odpalenia projektu u siebie:
 
@@ -34,3 +34,18 @@ Odpalamy sobie lokalny serwer pod `localhost:3000`:
 ```shell
 yarn dev
 ```
+
+### Praca z tłumaczeniami (i18n)
+
+Tłumaczenia są ładowane z folderu `./content`, ładowane są przy generowaniu stron (`./pages/[locale].tsx`, [Next.js Dynamic Router](https://nextjs.org/docs/routing/dynamic-routes)).
+
+Pliki w Markdown są renderowane przez `ReactMarkdown`.
+
+Dodatkowo krótkie teksty z UI są z `./content/strings.[locale].json` dla każdej wersji językowej
+
+Wersje językowe są zdefiniowane w `./config.ts`
+
+#### Dodawanie nowej wersji językowej
+
+- Dodaj odpowiednie pliki markdown i json w `./content`
+- Dodaj język w formie ISO do tablicy w `./config.ts` -> `locales`

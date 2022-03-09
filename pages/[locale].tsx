@@ -17,7 +17,7 @@ const getStaticProps: GetStaticProps = async ({ params }) => {
         throw new Error('No locale provided');
     }
     const { locale } = params;
-    const translationsFile = `./i18n/${locale}.json`;
+    const translationsFile = `./content/strings.${locale}.json`;
     const topTextFile = `./content/top-text.${locale}.md`;
     const bottomTextFile = `./content/bottom-text.${locale}.md`;
 
