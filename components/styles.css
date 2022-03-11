@@ -4,7 +4,9 @@
 
 .background {
     background-image: url('../public/ukraine-bd-lg.jpg');
-    @apply bg-cover bg-black bg-no-repeat bg-center
+    min-height: 60vh;
+    @apply bg-cover bg-no-repeat bg-center
+    
 }
 
 [data-language-switcher][data-is-current='true'] {
@@ -41,4 +43,29 @@ nav.header {
         height: 132px;
         width: 200px;
     }
+}
+
+.language-select {
+    transform: skew(20deg);
+    @apply bg-grayblue w-fit px-4 mr-1  hover:bg-specialyellow hover:text-grayblue
+}
+.language-select.active {
+    @apply bg-specialyellow text-grayblue
+}
+.language-select a {
+    display: block;
+    transform: skew(-20deg);
+    @apply text-xl w-full h-full
+}
+.kik-page-link {
+	height: 0;
+	border-left: 11px solid transparent;
+    border-top-width: 30px;
+    border-top-style: solid;
+    margin-left: -5px;
+    @apply hover:text-grayblue text-xl w-fit border-t-grayblue px-2 hover:border-t-specialyellow
+}
+.kik-page-link a {
+    transform: translateY(-110%);
+    display: block;
 }

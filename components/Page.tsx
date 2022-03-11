@@ -5,6 +5,7 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import getNavigatorLanguage from "./getNavigatorLanguage";
 import {homepageURL} from "../config";
+import PageHeader from './PageHeader';
 
 const LanguageLink: React.FC = ({ children: locale }) => {
     const { query } = useRouter();
@@ -13,9 +14,9 @@ const LanguageLink: React.FC = ({ children: locale }) => {
 };
 
 const Languages: React.FC = () => <div className="text-3xl h-full w-1/2 lg:w-full text-right">
-    <LanguageLink>en</LanguageLink>{" / "}
-    <LanguageLink>pl</LanguageLink>{" / "}
-    <LanguageLink>de</LanguageLink>
+    <LanguageLink>EN</LanguageLink>{" / "}
+    <LanguageLink>PL</LanguageLink>{" / "}
+    <LanguageLink>DE</LanguageLink>
 </div>
 
 const TranslationContext = React.createContext((t: string): string => (''));
@@ -76,6 +77,7 @@ const Page: React.FC<PageProps> = ({ posts, bottomText, topText, translations })
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             </Head>
             <div className="background w-full text-white text-center">
+                <PageHeader title={t('Help ukraine')} subtitle={ t('relief efforts')}/>
                 <nav id="header" className="header">
                     <Logo />
                     <GoBackButton />
