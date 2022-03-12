@@ -6,6 +6,7 @@ import ReactMarkdown from "react-markdown";
 import getNavigatorLanguage from "./getNavigatorLanguage";
 import {homepageURL} from "../config";
 import PageHeader from './PageHeader';
+import PaymentCallToAction from './PaymentCallToAction';
 
 const LanguageLink: React.FC = ({ children: locale }) => {
     const { query } = useRouter();
@@ -62,10 +63,11 @@ export type PageProps = {
     posts: string[];
     bottomText: string;
     topText: string;
+    aboutText: string;
     translations: Record<string, string>;
 };
 
-const Page: React.FC<PageProps> = ({ posts, bottomText, topText, translations }) => {
+const Page: React.FC<PageProps> = ({ posts, bottomText, topText,  aboutText, translations }) => {
     const t = (key: string): string => translations[key] || key;
 
     return (
@@ -78,28 +80,16 @@ const Page: React.FC<PageProps> = ({ posts, bottomText, topText, translations })
             </Head>
             <div className="background w-full text-white text-center">
                 <PageHeader title={t('Help ukraine')} subtitle={ t('relief efforts')}/>
-                <nav id="header" className="header">
-                    <Logo />
-                    <GoBackButton />
-                    <Languages />
-                </nav>
-                <section className="flex flex-col justify-between mb-24">
-                    <h1 className="text-3xl font-bold px-6 lg:text-6xl">
-                        {t('Help ukraine')}<br/>
-                        {t('relief efforts')}
-                    </h1>
-                    <DonateButtonSection/>
-                    <p className="mt-6">
-                        <a href="#bank" className="underline">
-                            {t('Support us via a wire transfer!')}
-                        </a>
-                    </p>
-                </section>
             </div>
-            <main className="flex w-full flex-1 flex-col items-center justify-center text-center">
+            <main className="flex w-full flex-1 flex-col items-center justify-center text-center" id='content'>
+                <PaymentCallToAction
+                    title={t('Help ukraine relief efforts')}
+                    content={topText}
+                    cta={t('Donate now call to action')}
+                />
                 <div className="max-w-6xl flex flex-col flex-nowrap py-12 px-4 lg:flex-row">
                     <div className="w-full top-text">
-                        <ReactMarkdown>{topText}</ReactMarkdown>
+                        <ReactMarkdown>{aboutText}</ReactMarkdown>
                     </div>
                     <div className="w-full">
                         <h3 className={'mt-4'}>{t('News')}</h3>

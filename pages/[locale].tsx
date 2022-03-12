@@ -19,6 +19,7 @@ const getStaticProps: GetStaticProps = async ({ params }) => {
     const { locale } = params;
     const translationsFile = `./content/strings.${locale}.json`;
     const topTextFile = `./content/top-text.${locale}.md`;
+    const aboutTextFile  = `./content/about-text.${locale}.md`;
     const bottomTextFile = `./content/bottom-text.${locale}.md`;
 
     if (![translationsFile, topTextFile, bottomTextFile].every(fs.existsSync)) {
@@ -35,6 +36,7 @@ const getStaticProps: GetStaticProps = async ({ params }) => {
             posts: await fetchFacebookPosts(locale || ''),
             bottomText: file(bottomTextFile),
             topText: file(topTextFile),
+            aboutText: file(aboutTextFile),
             translations
         }
     }
