@@ -22,6 +22,21 @@
     @apply text-grayblue
 }
 
+.container {
+    @apply w-full text-center md:text-left max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl  py-24 px-4 flex mx-auto flex-col md:flex-row
+}
+
+.content h2, .content h3 {
+    background-image: url('../public/yellow-blue-circle.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px;
+    @apply pl-16 text-left
+}
+.content {
+    @apply text-justify
+}
+
 p {
     @apply text-gray-500 text-sm
 }
@@ -31,7 +46,7 @@ p {
 }
 
 h2 {
-    @apply text-4xl mb-6
+    @apply text-4xl mt-6 mb-4 text-center md:text-left
 }
 
 .top-text {
@@ -43,7 +58,7 @@ h2 {
 }
 
 h3 {
-    @apply text-3xl mb-3 
+    @apply text-3xl mt-6 mb-4 text-center md:text-left
 }
 
 img.logo {
@@ -91,4 +106,15 @@ nav.header {
     background-image: url('../public/pattern-background.png');
     background-attachment: fixed;
     @apply bg-cover bg-no-repeat bg-center
+}
+
+.about ul {
+    @apply flex flex-wrap
+}
+.about li {
+    background-image: url('../public/yellow-circle.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 30px;
+    @apply pl-14 pb-3 pr-2 w-full md:w-1/2 lg:w-1/3 text-left mb-5
 }

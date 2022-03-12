@@ -10,14 +10,14 @@ export type PaymentCallToActionProps = {
 
 const PaymentCallToAction: React.FC<PaymentCallToActionProps> = ({ title, content, cta }) => (
     <div className="background-pattern w-full">
-        <section className='w-full text-left max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl  py-32 px-4 flex mx-auto'>
+        <section className='container'>
             <div className="md:w-1/2">
-                <h2 className="text-3xl text-left">
+                <h2 className="text-3xl">
                     {title}
                 </h2>
                 <ReactMarkdown>{content}</ReactMarkdown>
             </div>
-            <div className="flex items-center justify-center md:w-1/2">
+            <div className="flex items-center justify-center md:w-1/2 mt-8 md:mt-0">
                 <PaymentButton cta={cta} />
             </div>
         </section>

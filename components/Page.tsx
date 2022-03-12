@@ -7,6 +7,10 @@ import getNavigatorLanguage from "./getNavigatorLanguage";
 import {homepageURL} from "../config";
 import PageHeader from './PageHeader';
 import PaymentCallToAction from './PaymentCallToAction';
+import About from './About';
+import FacebookPosts from './FacebookPosts';
+import Content from './Content';
+import BankTransfer from './BankTransfer';
 
 const LanguageLink: React.FC = ({ children: locale }) => {
     const { query } = useRouter();
@@ -87,44 +91,17 @@ const Page: React.FC<PageProps> = ({ posts, bottomText, topText,  aboutText, tra
                     content={topText}
                     cta={t('Donate now call to action')}
                 />
-                <div className="max-w-6xl flex flex-col flex-nowrap py-12 px-4 lg:flex-row">
-                    <div className="w-full top-text">
-                        <ReactMarkdown>{aboutText}</ReactMarkdown>
-                    </div>
-                    <div className="w-full">
-                        <h3 className={'mt-4'}>{t('News')}</h3>
-                        {posts.map((t, i) => <div key={`news_${i}`} className="border-2 border-gray-300 p-4 text-left m-4" dangerouslySetInnerHTML={{__html: t}} />)}
-                        <a href='https://www.facebook.com/KIK.Warszawa' className='underline text-center'>{t('Follow us on facebook')}</a>
-                    </div>
-                </div>
-                <article className="max-w-2xl text-justify py-20 px-4">
-                    <ReactMarkdown>{bottomText}</ReactMarkdown>
-                </article>
-                <section className="bg-indigo-100 w-full px-4 pb-12">
-                    <h3 className="max-w-2xl mx-auto lg:text-6xl">{t('Support us via a wire transfer!')}</h3>
-                    <article id="bank" className="max-w-lg mx-auto text-left">
-                        <p className='mb-4'>
-                            {t('Klub Inteligencji Katolickiej')}
-                        </p>
-                        <p className='mb-4'>
-                            <strong>mBank SWIFT</strong>: BREXPLPWXXX
-                        </p>
-                        <p className='mb-4'><strong>PLN IBAN:</strong><br/>
-                            <code>PL69 1140 2062 0000 4445 3900 1005</code><br/>
-                            {t('Transfer title')}: darowizna na cele statutowe - ukraina
-                        </p>
-                        <p className='mb-4'><strong>EUR IBAN:</strong><br/>
-                            <code>PL47 1140 2062 0000 4445 3900 1013</code>
-                        </p>
-                        <p className='mb-12'><strong>USD IBAN:</strong><br/>
-                            <code>PL90 1140 2062 0000 4445 3900 1015</code>
-                        </p>
-                        <DonateButtonSection/>
-                    </article>
-                </section>
+                <About about={aboutText} />
+                <FacebookPosts t={t} posts={posts} />
+                <Content content={bottomText} />
+                <BankTransfer 
+                    title={t('Support us via a wire transfer!')}
+                    reciever={t('Klub Inteligencji Katolickiej')}
+                    transferTitle={t('Transfer title')}
+                    cta={t('Donate now call to action')}
+               />
             </main>
-
-            <footer className="flex h-24 w-full items-center justify-center border-t">
+            <footer className="flex p-5 w-full items-center justify-center border-t">
                 {t('Organized by')}&nbsp;
                 <a href={homepageURL} className={"underline"}>
                     {t('Klub Inteligencji Katolickiej')}
