@@ -12,18 +12,6 @@ import FacebookPosts from './FacebookPosts';
 import Content from './Content';
 import BankTransfer from './BankTransfer';
 
-const LanguageLink: React.FC = ({ children: locale }) => {
-    const { query } = useRouter();
-    const isActive = query.locale === locale;
-    return <Link href={`/${locale}`} passHref><a className={isActive ? 'underline' : ''}>{locale}</a></Link>;
-};
-
-const Languages: React.FC = () => <div className="text-3xl h-full w-1/2 lg:w-full text-right">
-    <LanguageLink>EN</LanguageLink>{" / "}
-    <LanguageLink>PL</LanguageLink>{" / "}
-    <LanguageLink>DE</LanguageLink>
-</div>
-
 const TranslationContext = React.createContext((t: string): string => (''));
 
 const useTranslation = () => {
@@ -31,37 +19,6 @@ const useTranslation = () => {
     return { t };
 }
 
-const DonateNowButton: React.FC = () => {
-    const style = "bg-green-700 text-white hover:bg-green-800 focus:ring-4 focus:ring-green-300 rounded-lg px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800";
-    const {t} = useTranslation();
-    return <a href="https://zrzutka.pl/en/eb8wg7/wplac" className={style}>
-        {t('Donate now call to action')}
-    </a>;
-}
-
-const DonateButtonSection: React.FC = () => {
-    const {t} = useTranslation();
-    return <div className={"text-3xl mt-4 flex flex-col justify-between text-center"}>
-        <p className="pt-4 pb-2">
-            <DonateNowButton/>
-        </p>
-        <p className="text-sm">
-            {t('powered by')}&nbsp;
-            <a href="https://zrzutka.pl" className="underline" rel="nofollow noopener">
-                zrzutka.pl
-            </a>
-        </p>
-    </div>
-};
-
-const GoBackButton: React.FC = () => {
-    const {t} = useTranslation();
-    return <a href={homepageURL} className={"text-2xl text-center underline w-full order-last lg:order-none"}>{t('Go back to')} kik.waw.pl</a>
-};
-
-const Logo: React.FC = () => <a href={homepageURL} className="w-1/2 lg:w-full">
-    <img src="./kik-logo-rect.png" alt="logo Klubu Inteligencji Katolickiej w Warszawie" className="logo"/>
-</a>
 
 export type PageProps = {
     posts: string[];
