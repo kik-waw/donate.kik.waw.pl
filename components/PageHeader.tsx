@@ -1,6 +1,6 @@
 import React from 'react';
 import Languages from './LanguageSelector';
-import {useRouter} from "next/router";
+import { HiChevronDown } from 'react-icons/hi';
 
 export type HeaderProps = {
     title: string;
@@ -16,6 +16,9 @@ const PageHeader: React.FC<HeaderProps> = ({ title, subtitle }) => (
             <img className='logo mr-0 md:mr-5 mb-3 md:mb-0' src='./kik-logo-rect.png' alt='logo'/>
             <h1 className='text-3xl px-6 lg:text-5xl text-center md:text-left'>{title}<br/>{subtitle}</h1>
         </div>
+        <a href='#content'>
+            <HiChevronDown className='bg-specialyellow text-5xl absolute arrow'/>
+        </a>
     </header>
 );
 
