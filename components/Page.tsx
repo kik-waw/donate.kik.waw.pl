@@ -29,7 +29,7 @@ const Page: React.FC<PageProps> = ({ facebookPosts, bottomText, topText,  aboutT
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             </Head>
             <div className="background w-full text-white text-center">
-                <PageHeader title={t('Help ukraine')} subtitle={ t('relief efforts')}/>
+                <PageHeader />
             </div>
             <main className="flex w-full flex-1 flex-col items-center justify-center text-center" id='content'>
                 <PaymentCallToAction>{topText}</PaymentCallToAction>
