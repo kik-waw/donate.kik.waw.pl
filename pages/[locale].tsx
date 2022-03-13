@@ -33,7 +33,7 @@ const getStaticProps: GetStaticProps = async ({ params }) => {
 
     return {
         props: {
-            posts: await fetchFacebookPosts(locale || ''),
+            facebookPosts: await fetchFacebookPosts(locale || ''),
             bottomText: file(bottomTextFile),
             topText: file(topTextFile),
             aboutText: file(aboutTextFile),

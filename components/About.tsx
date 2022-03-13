@@ -1,15 +1,11 @@
 import React from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
-export type AboutProps = {
-    about: string;
-}
-
-const About: React.FC<AboutProps> = ({ about }) => (
+const About: React.FC<{ children: string }> = ({ children }) => (
     <div className="bg-grayblue w-full">
         <section className="container text-white about">
             <div>
-                <ReactMarkdown>{about}</ReactMarkdown>
+                <ReactMarkdown>{children}</ReactMarkdown>
             </div>
         </section>
     </div>
