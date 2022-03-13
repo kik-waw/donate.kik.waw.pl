@@ -22,6 +22,11 @@
     @apply text-grayblue
 }
 
+.fb-posts span {
+    /* this is to fix facebook adding emoji fallback as background image to posts */
+    background: none !important;
+}
+
 .container {
     @apply w-full text-center md:text-left max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl  py-24 px-4 flex mx-auto flex-col md:flex-row
 }
