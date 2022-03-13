@@ -4,6 +4,9 @@ import { useRouter } from "next/router";
 
 const LanguageLink: React.FC = ({ children: localeSource }) => {
     const { query } = useRouter();
+    if (typeof localeSource !== "string") {
+        throw new Error("<LanguageLink />: children passed to the component must be a string");
+    }
     const locale = localeSource.toLowerCase();
     const isActive = query.locale === locale
     return (
