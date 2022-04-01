@@ -4,7 +4,6 @@ import {homepageURL} from "../config";
 import PageHeader from './PageHeader';
 import PaymentCallToAction from './PaymentCallToAction';
 import About from './About';
-import FacebookPosts from './FacebookPosts';
 import Content from './Content';
 import BankTransfer from './BankTransfer';
 import {TranslationContext} from "./i18n";
@@ -31,10 +30,9 @@ const Page: React.FC<PageProps> = ({ facebookPosts, bottomText, topText,  aboutT
             <div className="background w-full text-white text-center">
                 <PageHeader />
             </div>
-            <main className="flex w-full flex-1 flex-col items-center justify-center text-center" id='content'>
+            <main className="flex w-full flex-1 flex-col items-center justify-center text-center">
                 <PaymentCallToAction>{topText}</PaymentCallToAction>
                 <About>{aboutText}</About>
-                <FacebookPosts posts={facebookPosts} />
                 <Content>{bottomText}</Content>
                 <BankTransfer />
             </main>
