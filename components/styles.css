@@ -42,6 +42,20 @@
     @apply text-justify
 }
 
+.counter {
+    @apply flex items-center flex-col md:flex-row py-2
+}
+.counter > span {
+    @apply text-5xl pb-5 pr-5 text-grayblue font-bold
+}
+.counter > span > span {
+    width: 150px;
+    display: block;
+}
+.counter > p {
+    @apply text-grayblue text-lg
+}
+
 p {
     @apply text-gray-500 text-sm
 }

@@ -7,16 +7,16 @@ import About from './About';
 import Content from './Content';
 import BankTransfer from './BankTransfer';
 import {TranslationContext} from "./i18n";
+import Counters from './Counters';
 
 export type PageProps = {
-    facebookPosts: string[];
     bottomText: string;
     topText: string;
     aboutText: string;
     translations: Record<string, string>;
 };
 
-const Page: React.FC<PageProps> = ({ facebookPosts, bottomText, topText,  aboutText, translations }) => {
+const Page: React.FC<PageProps> = ({ bottomText, topText,  aboutText, translations }) => {
     const t = (key: string): string => translations[key] || key;
 
     return (
@@ -33,6 +33,7 @@ const Page: React.FC<PageProps> = ({ facebookPosts, bottomText, topText,  aboutT
             <main className="flex w-full flex-1 flex-col items-center justify-center text-center">
                 <PaymentCallToAction>{topText}</PaymentCallToAction>
                 <About>{aboutText}</About>
+                <Counters />
                 <Content>{bottomText}</Content>
                 <BankTransfer />
             </main>
