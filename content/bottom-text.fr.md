@@ -1,0 +1,25 @@
+## Le Club des Intellectuels Catholiques et l'Ukraine
+ 
+Le Club des Intellectuels Catholiques est une association fondée en 1956 qui compte environ 2000 membres et dont le but est de développer une attitude de service pour le bien commun.
+Les initiatives du KIK, outre la formation intellectuelle et spirituelle de ses membres, se réalisent dans 4 domaines principaux : Aide humanitaire, aide au développement et autres activités de soutien (projets financés par le ministère polonais des Affaires étrangères ou de l'USAID mis en œuvre en Syrie, en Irak, en Ukraine ; aide humanitaire à la frontière entre la Pologne et la Biélorussie) ; Éducation et formation (animation de groupes éducatifs sur des principes similaires au scoutisme pour plus de 700 enfants et jeunes) ; Initiatives sociales en Pologne (coopération avec les minorités en Pologne, gestion de la première ligne d’assistance téléphonique en Pologne pour les personnes touchées par la violence sexuelle dans l'Église) ; Développement de la société civile en Europe de l'Est (soutien à l'éducation indépendante en Biélorussie, prise en charge des enfants touchés par le conflit dans l'Est de l'Ukraine).
+ 
+### Initiatives du KIK en faveur de l'Ukraine
+ 
+Depuis 2014, le KIK s'est particulièrement engagé auprès de la société ukrainienne. Au cours de la révolution dite de la dignité (2014), le KIK a fourni aux manifestants des équipements hospitaliers de campagne spécialisés, des mesures de protection et un soutien financier, ainsi qu'un soutien aux blessés transportés vers les hôpitaux polonais. Depuis 8 ans, le KIK organise périodiquement des camps thérapeutiques et récréatifs pour les enfants des familles touchées par la guerre dans l'Est de l'Ukraine. Plusieurs centaines d'enfants et de jeunes ont bénéficié de ces camps. Le KIK a également mené des projets de soutien aux jeunes artistes ukrainiens, organisé des ateliers d'experts pour les éducateurs travaillant avec des enfants issus de familles réfugiées en Ukraine. Les initiatives du KIK comprenaient également l'équipement d’hôpitaux ukrainiens et la formation de médecins.
+ 
+Grâce à ces activités, le KIK dispose d'une large base de partenaires expérimentés en sur le territoire ukrainien dans les domaines de la santé, de l'éducation, de la culture et du développement de la société civile. Nous avons coopéré avec le ministère ukrainien de la Défense nationale, les autorités locales et les directeurs d'hôpitaux. Pour leur engagement, les membres du KIK ont réçu, à plusieurs reprises, des prix da la part des autorités ukrainiennes et polonaises.
+ 
+### Soutien après l'éclatement de la guerre
+ 
+Grâce à de nombreuses années d'expérience dans la conduite d'activités d'aide basées sur des besoins identifiés et confirmés, en nous appuyant sur les compétences et l'expérience de nos partenaires en Pologne et à l'étranger, ainsi que sur le soutien de volontaires engagés, nous essayons d'aider depuis le début de l'agression russe contre l'Ukraine - en particulier là où nous voyons des niches non couvertes par un soutien plus large. Nous nous concentrons sur l'aide dans trois domaines: l'aide humanitaire et médicale sur le territoire de l'Ukraine ; la satisfaction des besoins fondamentaux des réfugiés sur le territoire de la Pologne et l'organisation de formes d'aide à long terme.
+
+### Le soutien dont nous avons besoin
+**Chacune de nos initiatives d'aide a besoin de fonds.**
+- **Foyer d'intervention pour les réfugiés:** n'ayant pas la citoyenneté ukrainienne : pour couvrir les frais d'entretien du lieu, de la nourriture, du linge, etc.
+- **Évacuation des enfants handicapés:** pour le transport, les coûts de l'appui administratif aux groupes évacués.
+- **Activités de l'après-midi pour les enfants des réfugiés:** pour l'achat de matériel, les salaires des psychologues.
+- **Aide humanitaire:** pour le transport des matériels d'aide et l'achat d'équipements spécialisés (par exemple, des appareils à ultrasons pour les hôpitaux de campagne).
+- **École ukrainienne:** pour les salaires des enseignants, l'achat de matériel didactique, l'impression/achat de manuels scolaires, l'entretien des bâtiments.
+- **Modèle de soutien à long terme aux réfugiés:** pour l'embauche d'experts afin de piloter des solutions modèles.
+
+Notre association a également un besoin urgent de fonds pour le développement des infrastructures. Il y a actuellement 2 millions d'Ukrainiens sur le territoire polonais, dont un grand nombre restera en Pologne. Actuellement, lorsque l'on réfléchit à une aide efficace, il faut se projeter dans une perspective de plusieurs années. Cela signifie que nous devons progressivement remplacer le travail des volontaires par celui des coordinateurs et des experts salariés. **Nous utiliserons les fonds donnés au KIK pour développer notre capacité à fournir une aide efficace, large et à long terme (rémunération des coordinateurs) et pour des activités d'aide spécifiques (par exemple, transport de dons, achat de fournitures médicales, etc.)**
