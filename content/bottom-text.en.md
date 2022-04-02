@@ -1,25 +1,21 @@
 ## Club of Catholic Intelligentsia and Ukraine
+Club of Catholic Intelligentsia is an organization founded in 1956. It gathers around 2000 members whose objective is to serve the common good.
+KIK’s initiatives, apart from intellectual and spiritual formation, are pursued in 4 main areas: **Humanitarian and development aid and other aid activities** (projects funded by the Polish Ministry of Foreign Affairs or by American USAID carried out in Syria, Iraq and Ukraine; humanitarian aid at the Polish-Belarusian border);**Education and upbringing** (leading peer groups based on scouting-like rules for over 700 children and teenagers);**Social initiatives in Poland** (cooperation with minorities in Poland, creation of the first in Poland support helpline for people abused in Church); **Development of the civil society in Eastern Europe** (support for independent school system in Belarus, care for 
 
-Club of Catholic Intelligentsia (KIK) is an association founded in 1956 grouping c.a. 2000 Catholic intellectuals with the aim to promote and develop everyday service for the society and the Church. The important role of the Club is also to provide proper education for youth and necessary help for the poor and the ones in need. KIK’s members are very active in supporting democratic changes in Eastern European countries, especially in Ukraine and Belarus.
+### KIK’s engagement in helping Ukraine
+Since 2014 KIK has been especially involved in helping the Ukrainian society. During the so-called Revolution of Dignity (2014) KIK delivered specialist equipment for field hospital, Personal Protective Equipment and financial support, as well as the support for the injured who were transported to Polish hospitals. For 8 years KIK had been regularly organizing therapeutic and recreation camps for children from the families who had suffered from the war in the Eastern Ukraine. Several hundred children and teenagers benefited from those. KIK was also leading the projects supporting young Ukrainian artists, organized specialist workshops for educators working with refugee families in Ukraine. Ukrainian hospitals were equipped and the doctors were trained also on the KIK’s initiative.
+Thanks to all those activities KIK has a broad base of verified partners in the territory of Ukraine in the fields of education, culture and empowering the civil society. We have been cooperating with Ukrainian Ministry of National Defense, local governments and hospitals’ management representatives. The members of KIK were frequently rewarded for their involvement by the representatives of Ukraine’s and Poland’s authorities.
 
-Our collaboration with organisations in the eastern part of Eastern Europe started in the 80s. Here are the most important activities in recent years for Ukraine.
+### Support after the outbreak of war in Ukraine
+Thanks to the long-term experience in managing aid activities that are based on verified needs and having at our disposal all the contacts, motivated volunteers and partners with broad experience in multiple fields, we were able to bring help from the very beginning of Russian aggression in Ukraine. We focus on the particular fields that are in our opinion not comprehensively cared for. The three of them are: humanitarian and medical care in the territory of Ukraine; providing the basic needs for the refugees in the territory of Poland; organizing long-term help structures. 
 
-### 2014 EuroMajdan and War in the East
-
-During large scale protests in Ukraine in 2014, called Dignity Revolution, we collected over 25,000 EUR for the purchase of specialist medical equipment for the Medics of Majdan. We organised and delivered to Ukraine for protesters a field hospital with 40 beds and necessary equipment and a shipment of bulletproof vests and helmets.
-
-Also, we supported heavily wounded who thanks to our cooperation with Polish local governments were treated in Polish hospitals, whereas families of our KIK members accepted them in their homes for the initial stages of convalescence.
-
-Since 2014 we have been organising in Poland therapeutic and recreation camps for Ukrainian children - victims of military conflict in their country. This initiative has been repeated 6 times and included hundreds of children and teenagers.
-
-### Culture, Dialogue and Education
-
-KIK organised - together with Ukrainian organisations - numerous exhibitions, cultural and artistic events for young people from Ukraine and Ukrainian and Polish artists. There were also meetings and conferences for intellectuals and activists from the whole Eastern European region. There were organised special training sessions for Ukrainian social workers and educators to help solving social problems, particularly for groups of internal refugees in Ukraine.
-
-### Medical Help and Charity
-
-Our organisation delivered vaccinations and medicines to Ukrainian hospitals as well as trainings for volunteers to care of elderly people in Caritas centres in Central Ukraine. In 2016, we organised in Poland training visits for Ukrainian doctors to enhance their professional development.
-
-In addition to our help and support for Ukraine, we have been working with Belarusian organisations supporting independent schools and organising various educational training trips for young Belarusians. In recent years, we have been also engaged in humanitarian projects in Syria and the Iraqi Kurdistan. In 2021 KIK organised a humanitarian centre close to the Polish-Byelorussian border where for the last five months we have been offering legal and humanitarian aid for migrants and refugees.
-
-The members of the KIK have been awarded many times for their involvement by the Polish and Ukrainian authorities. Over the years, we have managed to create a database of trusted partners in Poland, Ukraine and Belarus.
+### Help needed
+**Each of our aid initiatives needs funding.**
+- **Hostel for the refugees without Ukrainian passports:** for covering costs of accommodation, food, laundry etc.
+- **Evacuation of children with disabilities:** for transport, costs of administrative support of evacuated groups.
+- **Afternoon care for children:** for materials, psychologists’ salaries.
+- **Humanitarian aid:** for transport of aid measures and the purchase of specialist equipment (i.e. Ultrasound Machines for field hospitals).
+- **Ukrainian school:** for hiring teachers, the purchase of teaching aids, printing/purchasing the handbooks, maintenance of the building.
+- **Long-term model for the support of refugees:** for hiring experts who would pilot the model solutions.
+ 
+Our organization needs funds for developing our infrastructure. Currently on the territory of Poland there are 2 millions of Ukrainians, many of which will stay in Poland. Thinking about effective help we need to take the perspective of a few years. It requires a gradual replacement of voluntary actions with the work of hired staff as well as coordinators and experts. **The means given to KIK will be used on developing our ability to help effectively in a broad long-term perspective (salary of coordinators is crucial) and on specific aid activities (transport of goods, medical supplies etc.).**

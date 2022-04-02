@@ -1,2 +1,1 @@
-From the first days of the criminal attack on Ukraine we have been helping - in Ukraine, at the border and in Poland
-Poland. Please - support our actions, Ukraine cannot be left alone.
+From the first days of the criminal attack on Ukraine we have been helping both in the territory of Ukraine and of Poland. We manage to reach effectively people who are especially affected by the humanitarian crisis and the war. In our activities we use both our experience in organizing humanitarian and development aid in different parts of the world and that of an experienced social organization.
