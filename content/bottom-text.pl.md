@@ -1,23 +1,25 @@
 ## Klub Inteligencji Katolickiej i Ukraina
 
-Klub Inteligencji Katolickiej jest stowarzyszeniem założonym w 1956 r. zrzeszającym ok. 2000 katolickich intelektualistów, których celem jest rozwijanie postawy służby na rzecz społeczeństwa i Kościoła. Ważnym zadaniem Klubu jest wychowanie dzieci i młodzieży oraz pomocy potrzebującym. Członkowie KIK-u są bardzo zaangażowani we wsparcie społeczeństw w Europie Wschodniej, zwłaszcza w Ukrainie i Białorusi. Nasza współpraca z organizacjami na Wschodzie rozpoczęła się już w latach 80-tych. Poniżej wymieniamy najważniejsze z tych działań w ostatnich latach na rzecz Ukrainy:
+Klub Inteligencji Katolickiej jest stowarzyszeniem założonym w 1956 r. zrzeszającym ok. 2000 członków, których celem jest rozwijanie postawy służby na rzecz dobra wspólnego.  
+Inicjatywy KIK, poza formacją intelektualną i duchową swoich członków realizowane są w 4 głównych obszarach: **Pomoc humanitarna i rozwojowa i inne działania pomocowe** (projekty ze środków polskiego Ministerstwa Spraw Zagranicznych czy amerykańskiego USAID realizowane w Syrii, Iraku, Ukrainie; pomoc humanitarna przy granicy polsko-białoruskiej); **Edukacja i wychowanie** (prowadzenie grup wychowawczych na zasadach podobnych do skautingu dla ponad 700 dzieci i młodzieży); **Inicjatywy społeczne w Polsce** (współpraca z mniejszościami w Polsce, prowadzenie pierwszego w Polsce telefonu wsparcia dla osób dotkniętych przemocą seksualną w Kościele); **Rozwój społeczeństwa obywatelskiego w Europie Wschodniej** (wsparcie niezależnego szkolnictwa na Białorusi, opieka nad dziećmi dotkniętymi przez konflikt na Wschodzie Ukrainy).
 
-Nasza współpraca z organizacjami na Wschodzie rozpoczęła się już w latach 80-tych. Poniżej wymieniamy najważniejsze z tych działań w ostatnich latach na rzecz Ukrainy:
+### Działania KIK na rzecz Ukrainy 
 
-### 2014 EuroMajdan i Wojna na Wschodzie
+Od 2014 r. KIK w sposób szczególny angażuje się w działania na rzecz społeczeństwa ukraińskiego. Podczas tzw. Rewolucji Godności (2014) KIK przekazał protestującym specjalistyczne wyposażenie szpitala polowego, środki ochronne i wsparcie finansowe, a także wsparcie dla rannych przewiezionych do polskich szpitali. W ciągu 8 lat KIK cyklicznie organizował obozy terapeutyczne i rekreacyjne dla dzieci z rodzin, które ucierpiały w wyniku wojny na Wschodzie Ukrainy. Skorzystało z nich kilkaset dzieci i młodzieży. KIK prowadził też projekty wspierające młodych artystów ukraińskich, organizował warsztaty eksperckie dla edukatorów pracujących z dziećmi z rodzin uchodźczych na Ukrainie. Inicjatywy KIK objęły także wyposażenie ukraińskich szpitali i szkolenie lekarzy.  
+  
+Dzięki tym działaniom KIK ma szeroką bazę sprawdzonych partnerów na terytorium Ukrainy w obszarze ochrony zdrowia, edukacji, kultury i rozwoju społeczeństwa obywatelskiego. Współpracowaliśmy z ukraińskim Ministerstwem Obrony Narodowej, samorządami, dyrekcjami szpitali. Za swoje zaangażowanie członkowie KIK byli wielokrotnie nagradzani przez przedstawicieli władz Ukrainy i Polski.
 
-W trakcie masowych protestów tzw. Rewolucji Godności zebraliśmy ponad 100 tys. PLN na zakup specjalistycznego sprzętu medycznego dla Lekarzy Majdanu. Przekazaliśmy na Ukrainę szpital polowy dla protestujących na 40 łóżek z wyposażeniem, a także partię kamizelek kuloodpornych i hełmów.Wsparliśmy również ciężko rannych, którzy dzięki współpracy KIK z samorządami lokalnymi trafili do polskich szpitali, a w rodzinach członków KIK mogli przejść etap rekonwalscencji.
 
-Od 2014 organizujemy kolonie dla dzieci z Ukrainy - ofiar działań wojennych i konfliktu zbrojnego, trwającego na wschodzie. Zorganizowano 6 edycji, w których wzięło udział kilkaset dzieci i młodzieży.
+### Wsparcie po wybuchu wojny
+Dzięki wieloletniemu doświadczeniu w prowadzeniu działań pomocowych w oparciu o ustalone i potwierdzone potrzeby, korzystając z wiedzy i doświadczeń naszych partnerów w Polsce i za granicą, korzystając ze wsparcia zaangażowanych wolontariuszy, od początku rosyjskiej agresji na Ukrainę, staramy się pomagać - zwłaszcza tam, gdzie widzimy nisze nie objęte szerszym wsparciem. Skupiamy się na pomocy w trzech obszarach: **pomocy humanitarnej i medycznej na terytorium Ukrainy; zapewnieniu podstawowych potrzeb uchodźcom na terytorium Polski; zorganizowanu długofalowych form pomocy.**
 
-### Kultura, dialog i edukacja
+### Potrzebna pomoc
+Każda z naszych inicjatyw pomocowych potrzebuje funduszy.  
+- **Hostel interwencyjny dla uchodźców bez obywatelstwa ukraińskiego:** na pokrycie kosztów utrzymania miejsca, jedzenie, pranie itd.
+- **Ewakuacja dzieci z niepełnosprawnościami:** na transport, koszty administracyjnego wsparcia ewakuowanych grup.
+- **Popołudniowe zajęcia dla dzieci:** na zakup materiałów, pensje dla psychologów.
+- **Pomoc humanitarna:** na transport środków pomocy i zakup specjalistycznego sprzętu (np. aparatów USG dla szpitali polowych).
+- **Szkoła ukraińska:** na zatrudnienie nauczycieli, zakup pomocy naukowych, druk/zakup podręczników, utrzymanie budynku.
+- **Model długofalowego wsparcia uchodźców:** na zatrudnienie ekspertów prowadzących pilotaż modelowych rozwiązań.
 
-We współpracy z organizacjami ukraińskimi zorganizowaliśmy wystawy i spotkania kulturalne i artystyczne dla ukraińskich i polskich artystów i ukraińskiej młodzieży. Współorganizowaliśmy spotkania i konferencje dla intelektualistów i działaczy z całego regionu Europy Wschodniej. Organizowaliśmy szkolenia dla ukraińskich animatorów i edukatorów mające na celu wsparcie rozwiązywania problemów społecznych i socjalnych szczególnie w skupiskach uchodźców wewnętrznych na Ukrainie.
-
-### Pomoc medyczna i charytatywna
-
-Dostarczaliśmy szczepionki, leki i inne potrzebne przedmioty do ukraińskich szpitali, szkół i domów dziecka. Organizowalismy szkolenia dla wolontariuszy osób starszych w ośrodkach Caritas w centralnej Ukrainie. W 2016 r. zorganizowaliśmy wizyty studyjne dla ukraińskich lekarzy w Polsce, w celu wsparcia ich rozwoju zawodowego.
-
-Oprócz wsparcia Ukrainy od lat współpracujemy z organizacjami z Białorusi wspierając niezależne od reżimu szkolnictwo i organizując wyjazdy studyjne dla młodzieży. W ostatnich latach prowadziliśmy też projekty humanitarne w Syrii i Irackim Kurdystanie. W związku z kryzysem migracyjnym przy polskich granicach przez ostatnie 5 miesięcy prowadzimy na granicy Polsko-Białoruskiej punkt dostarczający pomoc humanitarną i prawną uchodźców i migrantów.
-
-Członkowie KIK byli wielokrotnie nagradzani za swoje zaangażowanie przez władze Polski i Ukrainy. Przez lata udało nam się stworzyć bazę zaufanych partnerów w Polsce, Ukrainie i Białorusi.
+Nasze stowarzyszenie potrzebuje też bardzo funduszy na rozwój infrastruktury. Obecnie na terytorium Polski znajduje się 2 miliony Ukraińców, z których duża część zostanie w Polsce. Obecnie myśląc o skutecznej pomocy musimy przyjmować perspektywę kilku lat. Oznacza to konieczność stopniowego zastępowania działań wolontariuszy pracą zatrudnionych koordynatorów i ekspertów. Środki przekazane na KIK wykorzystamy na rozwijanie naszej zdolności skutecznej, szerokiej i długofalowej pomocy (kluczowe wynagrodzenie koordynatorów) oraz na konkretne działania pomocowe (np. transport darów, zakup środków medycznych itd.)

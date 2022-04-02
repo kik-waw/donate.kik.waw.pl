@@ -1,10 +1,10 @@
 ### What we do:
 
-- we provide in-kind assistance to medical services in Ukraine;
-- We evacuate children from orphanages, including the disabled, from war zones;
-- We provide emergency aid to refugees on both sides of the Polish-Ukrainian border;
-- We look for homes for refugees, we opened a temporary hostel for refugees who are not citizens of Ukraine
-  refugees who are not Ukrainian citizens;
-- We opened afternoon kindergarten for refugee children;
-- We help organize spiritual care for our Orthodox neighbors;
-- whenever possible, we try to respond to any requests for help.
+- We send professional equipment used by Ukrainian medical services in field hospitals.
+- We carry out and support evacuations of orphanages for children with disabilities from the territory of Ukraine. 
+- We run a hostel for refugees without Ukrainian citizenship who are not included in government support programs.
+- We run afternoon kindergartens for refugee children and provide support for their parents. 
+- We look for homes for refugees. We support hosts who share their houses. 
+- We send humanitarian aid to the territory of Ukraine. 
+- We are opening Ukrainian school in Warsaw. 
+- We are working on the long-term model for the support of refugees.

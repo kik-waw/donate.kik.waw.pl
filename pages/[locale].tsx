@@ -2,7 +2,6 @@ import React from "react";
 import {GetStaticPaths, GetStaticProps, NextPage} from "next";
 import fs from "fs";
 import Page, {type PageProps} from "../components/Page";
-import {fetchFacebookPosts} from "../components/scraper";
 import {locales} from "../config";
 
 const getStaticPaths: GetStaticPaths = () => {
@@ -33,7 +32,6 @@ const getStaticProps: GetStaticProps = async ({ params }) => {
 
     return {
         props: {
-            facebookPosts: await fetchFacebookPosts(locale || ''),
             bottomText: file(bottomTextFile),
             topText: file(topTextFile),
             aboutText: file(aboutTextFile),

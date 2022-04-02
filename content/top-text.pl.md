@@ -1,2 +1,1 @@
-Od pierwszych dni zbrodniczej napaści na Ukrainę pomagamy - na Ukrainie, na granicy i w
-Polsce. Prosimy – wesprzyj nasze działania, Ukraina nie może zostać sama.
+Od pierwszych dni napaści na Ukrainę pomagamy zarówno na terytorium Ukrainy i Polski. Z naszą pomocą skutecznie docieramy zwłaszcza do osób i grup szczególnie dotkniętych kryzysem humanitarnym i wojną. W działaniu łączymy nasze doświadczenie w zorganizowanej pomocy humanitarnej i rozwojowej w różnych częściach świata oraz doświadczonej organizacji społecznej.

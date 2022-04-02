@@ -23,6 +23,7 @@ const Languages: React.FC = () => <div className="text-3xl h-full w-1/2 lg:w-ful
         <LanguageLink>EN</LanguageLink>
         <LanguageLink>PL</LanguageLink>
         <LanguageLink>DE</LanguageLink>
+        <LanguageLink>FR</LanguageLink>
         <div className="kik-page-link">
             <Link href={`https://www.kik.waw.pl/?no_redir=1`} passHref> 
                 <a>kik.waw.pl</a>
