@@ -1,30 +1,22 @@
-## Der Klub der katholischen Intelligenz und Ukraine
+## Der Klub der Katholischen Intelligenz und die Ukraine-Hilfe
+Der Klub der Katholischen Intelligenz ist eine 1956 gegründete Vereinigung mit etwa 2000 Mitgliedern, deren Ziel es ist, eine dem Gemeinwohl gegenüber verantwortungsbewusste Haltung zu entfalten.
+Neben intellektuellen und spirituellen Angeboten für seine Mitglieder organisiert der KIK Initiativen in 4 Hauptbereichen: Humanitäre und Entwicklungshilfe sowie andere Hilfsaktionen (Projekte gefördert mit Mitteln des polnischen Außenministeriums oder des USAID in Syrien, Irak, Ukraine; humanitäre Hilfe an der polnisch-weißrussischen Grenze); Bildung und Erziehung (Durchführung von Gruppenarbeit nach pfadfinderähnlichen Prinzipien für über 700 Kinder und Jugendliche); Soziale Initiativen in Polen (Zusammenarbeit mit Minderheiten in Polen, Inbetriebnahme des ersten Hilfetelefons in Polen für Betroffene von sexueller Gewalt in der Kirche); Entwicklung der Zivilgesellschaft in Osteuropa (Unterstützung einer unabhängigen Bildung in Belarus, Betreuung von Kindern, die vom Konflikt in der Ostukraine betroffen sind).
 
-Der Klub der katholischen Intelligenz ist eine 1956 gegründete Vereinigung von etwa 2000 katholischen Intellektuellen, deren Ziel es ist, eine verantwortungsvolle Haltung gegenüber der Gesellschaft und der Kirche zu entwickeln.  Eine wichtige Aufgabe des Clubs ist es, Kinder und Jugendliche durch Freizeitangebote in ihrer Persönlichkeitsentwicklung zu unterstützen und Bedürftigen zu helfen. Die Mitglieder der NCU engagieren sich sehr für die Unterstützung der Gesellschaften in Osteuropa, insbesondere in der Ukraine und in Belarus.
+### Engagement des KIK für die Ukraine
+Seit 2014 engagiert sich der KIK auf besondere Weise für die ukrainische Gesellschaft. Während der sogenannten Revolution der Würde (2014) stellte der KIK den Demonstranten spezielle Feldlazarette, Schutzmaßnahmen und finanzielle Unterstützung zur Verfügung und unterstützte den Verwundetentransport in polnische Krankenhäuser. Seit acht Jahren organisiert der KIK in regelmäßigen Abständen Therapie- und Erholungslager für Kinder aus Familien, die vom Krieg in der Ostukraine betroffen sind. Mehrere hundert Kinder und Jugendliche konnten wir diesen Camps betreuen. Der KIK führte auch Projekte zur Unterstützung junger ukrainischer Künstler durch und organisierte Expertenworkshops für Erzieher, die mit Kindern aus Flüchtlingsfamilien in der Ukraine arbeiten. Zu den Initiativen des KIK gehörten auch die Ausstattung ukrainischer Krankenhäuser und die Ausbildung von Ärzten.  
 
-Unsere Zusammenarbeit mit verschiedenen Organisationen (NGO) im Osten begann bereits in den 1980er Jahren. Nachfolgend sind die wichtigsten dieser Aktivitäten der letzten Jahre zur Unterstützung der Ukraine aufgeführt:
+Dank dieser Aktivitäten verfügt der KIK über eine breite Basis bewährter Partner auf ukrainischem Gebiet in den Bereichen Gesundheitsversorgung, Bildung, Kultur und Entwicklung der Zivilgesellschaft. Wir arbeiteten mit dem ukrainischen Verteidigungsministerium, den örtlichen Behörden und den Krankenhausdirektionen zusammen. Für ihr Engagement wurden Mitglieder des KIK-wiederholt von Vertretern ukrainischer und polnischer Behörden ausgezeichnet
 
-### 2014 Euromaydan und Krieg im Osten
+### Unterstützung nach Ausbruch des Krieges
+Mit unserer langjährigen Erfahrung bei der Durchführung von Hilfsmaßnahmen auf der Grundlage ermittelter und bestätigter Bedürfnisse und zusammen mit unseren Kontakten und engagierten Freiwilligen sowie Partnern, die über umfangreiche Erfahrungen in vielen Bereichen verfügen, versuchen wir seit Beginn der russischen Aggression gegen die Ukraine vor allem dort zu helfen, wo wir Nischen sehen, die von einer breit angelegten Unterstützung nicht abgedeckt werden. Wir konzentrieren uns auf drei Bereiche: humanitäre und medizinische Hilfe auf ukrainischem Gebiet, Grundversorgung der Flüchtlinge auf polnischem Gebiet und Organisation langfristiger Hilfsmaßnahmen.
 
-Während der Massenproteste der so genannten Revolution der Würde gelang es uns über 100.000 PLN für den Kauf medizinischer Spezialausrüstung für die Majdan-Ärzte zu sammeln. Wir haben ein mit 40 Betten ausgestattetes Feldlazarett für Demonstranten in der Ukraine gespendet sowie eine Reihe von kugelsicheren Westen und Helmen.
-
-Wir konnten auch Schwerverletzte unterstützen, die dank der Zusammenarbeit der NCU mit den lokalen Regierungen in polnische Krankenhäuser gebracht wurden und sich in den Familien von NCU-Mitgliedern erholen konnten.
-
-Seit 2014 organisieren wir Camps für Kinder aus der Ukraine, die Opfer von Kriegen und bewaffneten Konflikten im Osten des Landes geworden sind. Es wurden insgesamt 6 Durchgänge organisiert, an denen mehrere hundert Kinder und Jugendliche teilnahmen.
-
-### Kultur, Dialog und Bildung
-
-In Zusammenarbeit mit ukrainischen Organisationen organisierten wir Ausstellungen und Treffen zwischen ukrainischen und polnischen Künstler sowie ukrainischen Jugendlichen.
-
-Wir wirkten aktiv mit bei der Organisation von Treffen und Konferenzen für Intellektuelle und Aktivisten aus der gesamten osteuropäischen Region sowie von Schulungen für ukrainische Animateure und Pädagogen mit dem Ziel zur Lösung sozialer und gesellschaftlicher Probleme beizutragen, insbesondere in den Gruppen der Binnenvertriebenen in der Ukraine.
-
-### Medizinische und karitative Hilfe
-
-Wir versorgten ukrainische Krankenhäuser, Schulen und Waisenhäuser mit Impfstoffen, Medikamenten und anderen notwendigen Dingen.
-
-Wir organisierten Schulungen für ehrenamtliche Helfer älterer Menschen in Caritas-Zentren in der Zentralukraine und im Jahr 2016 Studienaufenthalte für ukrainische Ärzte in Polen, um ihre berufliche Entwicklung zu unterstützen.
-
-Neben der Unterstützung der Ukraine arbeiten wir seit Jahren mit Organisationen in Belarus zusammen, die sich für eine vom Regime unabhängige Bildung einsetzen und Studienreisen für junge Menschen organisieren. In den letzten Jahren haben wir auch humanitäre Projekte in Syrien und im irakischen Kurdistan durchgeführt. Aufgrund der Migrationskrise an den polnischen Grenzen haben wir in den letzten fünf Monaten eine Anlaufstelle an der polnisch-weißrussischen Grenze eingerichtet, die Flüchtlingen und Migranten humanitäre und rechtliche Hilfe leistet.
-
-Die Mitglieder der NCU wurden von den polnischen und ukrainischen Behörden wiederholt für ihr Engagement belohnt. Im Laufe der Jahre ist es uns gelungen, einen Stamm von vertrauenswürdigen Partnern in Polen, der Ukraine und Belarus aufzubauen.
- 
+### In welchen Bereichen benötigen wir Hilfe?
+Jede unserer Hilfsinitiativen muss finanziert werden.
+- **Interventionswohnheim (Hostel) für Flüchtlinge ohne ukrainische Staatsbürgerschaft:** Deckung der Kosten für die Instandhaltung des Wohnheims, Lebensmittel, Reinigung usw.
+- **Evakuierung von Kindern mit Behinderungen:** Transportkosten, Kosten für die administrative Unterstützung der evakuierten Gruppen.
+- **Nachmittagsaktivitäten für Kinder:** für den Kauf von Materialien, Gehälter für Psychologen.
+- **Humanitäre Hilfe:** für den Transport von Hilfsgütern und den Kauf von Spezialausrüstung (z. B. Ultraschallgeräte für Feldkrankenhäuser).
+- **Ukrainische Schule:** für die Einstellung von Lehrern, den Kauf von Lehrmitteln, den Druck/Kauf von Lehrbüchern, die Instandhaltung von Gebäuden.
+- **Langfristiges Modell zur Unterstützung von Flüchtlingen:** für die Einstellung von Experten zur Erprobung von Modelllösungen.
+  
+Unser Verband braucht auch dringend Mittel für den Ausbau der Infrastruktur. Derzeit leben 2 Millionen Ukrainer auf polnischem Gebiet, von denen ein großer Teil in Polen bleiben wird. Wenn wir heute über wirksame Hilfe nachdenken, müssen wir mehrjährige Perspektive einnehmen. Das bedeutet, dass wir die Arbeit von Freiwilligen schrittweise durch die Arbeit von angestellten Koordinatoren und Experten ersetzen müssen. Wir werden die an den KIK gespendeten Mittel für den Ausbau unserer Kapazitäten für eine wirksame, breit angelegte und langfristige Hilfe (Schlüsselvergütung für die Koordinatoren) und für spezifische Hilfsmaßnahmen (z. B. Transport von Spenden, Kauf von medizinischem Material usw.) verwenden.

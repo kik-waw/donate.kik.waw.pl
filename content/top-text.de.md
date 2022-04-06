@@ -1,2 +1,1 @@
-Seit den ersten Tagen des verbrecherischen Angriffs auf die Ukraine haben wir geholfen - in der Ukraine, an der Grenze und in
-Polen. Bitte - unterstützen Sie unsere Aktionen, die Ukraine darf nicht allein gelassen werden.
+Seit den ersten Tagen des Angriffs auf die Ukraine haben wir sowohl in der Ukraine als auch in Polen geholfen. Mit unserer Hilfe erreichen wir Menschen und Gruppen, die von der humanitären Krise und dem Krieg besonders betroffen sind. Bei unseren Aktionen stützen wir uns auf unsere Erfahrung in der organisierten humanitären Hilfe und Entwicklungshilfe in verschiedenen Teilen der Welt sowie die Erfahrung in der gemeinnützige Organisation.
