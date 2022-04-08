@@ -2,6 +2,8 @@
 
 Projekt to prosty Landing page na wpłaty darowizn w paru językach. Projekt jest w Next.js z zamiarem publikowania statycznego HTML na jakimś serwerze "edgeowym".
 
+![Screenshot of donate.kik.waw.pl displayed in a web browser](https://user-images.githubusercontent.com/25948390/162474297-3e155349-f09b-4505-8b27-f82c09c08f0d.png)
+
 ## Publikacja
 
 Strona publikowana jest za pomocą CloudFlare Pages, w ramach konta KIK w CloudFlare, aktualna wersja dostępna pod https://donate-kik-waw-pl.pages.dev/.
