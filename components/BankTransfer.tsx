@@ -11,8 +11,8 @@ const BankTransfer: React.FC = () => {
                     <h2 className="mb-12">{t('Support us via a wire transfer!')}</h2>
                     <ul className="">
                         <li>
-                            {t('Klub Inteligencji Katolickiej')}<br>
-                            <b>{t('Transfer title')}:</b> darowizna na cele statutowe - ukraina <br>
+                            {t('Klub Inteligencji Katolickiej')}</br>
+                            <b>{t('Transfer title')}:</b> darowizna na cele statutowe - ukraina </br>
                             <b>SWIFT:</b> BREXPLPWXXX </br>
                             <b>PLN IBAN:</b> PL69 1140 2062 0000 4445 3900 1005 <br/>
                             <b>EUR IBAN:</b> PL47 1140 2062 0000 4445 3900 1013 <br/>
