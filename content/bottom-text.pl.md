@@ -1,7 +1,7 @@
 ## Klub Inteligencji Katolickiej i Ukraina
 
 Klub Inteligencji Katolickiej jest stowarzyszeniem założonym w 1956 r. zrzeszającym ok. 2000 członków, których celem jest rozwijanie postawy służby na rzecz dobra wspólnego.  
-Inicjatywy KIK, poza formacją intelektualną i duchową swoich członków realizowane są w 4 głównych obszarach: **Pomoc humanitarna i rozwojowa i inne działania pomocowe** (projekty ze środków polskiego Ministerstwa Spraw Zagranicznych czy amerykańskiego USAID realizowane w Syrii, Iraku, Ukrainie; pomoc humanitarna przy granicy polsko-białoruskiej); **Edukacja i wychowanie** (prowadzenie grup wychowawczych na zasadach podobnych do skautingu dla ponad 700 dzieci i młodzieży); **Inicjatywy społeczne w Polsce** (współpraca z mniejszościami w Polsce, prowadzenie pierwszego w Polsce telefonu wsparcia dla osób dotkniętych przemocą seksualną w Kościele); **Rozwój społeczeństwa obywatelskiego w Europie Wschodniej** (wsparcie niezależnego szkolnictwa na Białorusi, opieka nad dziećmi dotkniętymi przez konflikt na Wschodzie Ukrainy).
+Inicjatywy KIK, poza formacją intelektualną i duchową swoich członków realizowane są w 4 głównych obszarach: **Pomoc humanitarna i rozwojowa i inne działania pomocowe** (projekty ze środków polskiego Ministerstwa Spraw Zagranicznych czy amerykańskiego USAID realizowane w Syrii, Iraku, Ukrainie; pomoc humanitarna przy granicy polsko-białoruskiej); **Edukacja i wychowanie** (prowadzenie grup wychowawczych na zasadach podobnych do skautingu dla ponad 700 dzieci i młodzieży); **Inicjatywy społeczne w Polsce** (współpraca z mniejszościami w Polsce, prowadzenie pierwszego w Polsce telefonu wsparcia dla osób dotkniętych przemocą seksualną w Kościele); **Rozwój społeczeństwa obywatelskiego w Europie Wschodniej** (wsparcie niezależnego szkolnictwa na Białorusi,opieka nad dziećmi dotkniętymi przez konflikt na Wschodzie Ukrainy).
 
 ### Działania KIK na rzecz Ukrainy 
 
@@ -11,15 +11,13 @@ Dzięki tym działaniom KIK ma szeroką bazę sprawdzonych partnerów na terytor
 
 
 ### Wsparcie po wybuchu wojny
-Dzięki wieloletniemu doświadczeniu w prowadzeniu działań pomocowych w oparciu o ustalone i potwierdzone potrzeby, korzystając z wiedzy i doświadczeń naszych partnerów w Polsce i za granicą, korzystając ze wsparcia zaangażowanych wolontariuszy, od początku rosyjskiej agresji na Ukrainę, staramy się pomagać - zwłaszcza tam, gdzie widzimy nisze nie objęte szerszym wsparciem. Skupiamy się na pomocy w trzech obszarach: **pomocy humanitarnej i medycznej na terytorium Ukrainy; zapewnieniu podstawowych potrzeb uchodźcom na terytorium Polski; zorganizowanu długofalowych form pomocy.**
+Dzięki dużemu doświadczeniu w prowadzeniu działań pomocowych w oparciu o ustalone i potwierdzone potrzeby, korzystając z wiedzy i doświadczeń naszych partnerów w Polsce i za granicą, korzystając ze wsparcia  wolontariuszy, od początku rosyjskiej agresji na Ukrainę staramy się pomagać w tych sferach, które w danym momencie uważamy za najważniejsze. Na początku była to pomoc w ewakuacji z terenów objętych działaniami wojennymi, pomoc humanitarna i zapewnienie podstawowych potrzeb uchodźców. Obecnie koncentrujemy się na aspektach, które uważamy za szczególnie ważne dla przyszłości Ukrainy: edukacja i objęcie opieką dzieci i młodzieży, pomoc dzieciom przeżywającym traumę w związku ze stratą rodzica, organizacja wypoczynku dla dzieci i młodzieży, pomoc uchodźcom wewnętrznym w Ukrainie. Działamy razem z organizacjami ukraińskimi, takimi jak: BUR oraz Fundacją “Szansa na Nowe Życie".
 
 ### Potrzebna pomoc
 Każda z naszych inicjatyw pomocowych potrzebuje funduszy.  
-- **Hostel interwencyjny dla uchodźców bez obywatelstwa ukraińskiego:** na pokrycie kosztów utrzymania miejsca, jedzenie, pranie itd.
-- **Ewakuacja dzieci z niepełnosprawnościami:** na transport, koszty administracyjnego wsparcia ewakuowanych grup.
-- **Popołudniowe zajęcia dla dzieci:** na zakup materiałów, pensje dla psychologów.
-- **Pomoc humanitarna:** na transport środków pomocy i zakup specjalistycznego sprzętu (np. aparatów USG dla szpitali polowych).
-- **Szkoła ukraińska:** na zatrudnienie nauczycieli, zakup pomocy naukowych, druk/zakup podręczników, utrzymanie budynku.
-- **Model długofalowego wsparcia uchodźców:** na zatrudnienie ekspertów prowadzących pilotaż modelowych rozwiązań.
+- **Pomoc humanitarna na Ukrainie:** generatory prądu, środki medyczne, zakup specjalistycznego sprzętu, transport.
+- **Szkoła ukraińska:** zatrudnienie nauczycieli, zakup pomocy naukowych, druk/zakup podręczników, utrzymanie budynku.
+- **Obozy, wyjazdy, integracja i wypoczynek dzieci i młodzieży:** transport, wyżywienie, opiekunowie, w tym opieka psychologiczna, prowadzenie warsztatów, wypożyczenie sprzętu sportowego.
+- **Szkolenia:** wyjazd integracyjno-szkoleniowy dla młodych liderów z Polski i Ukrainy, szkolenia dla psychologów ukraińskich, przeszkolenie kadr i wolontariuszy pracujących z dziećmi.
 
 Nasze stowarzyszenie potrzebuje też bardzo funduszy na rozwój infrastruktury. Obecnie na terytorium Polski znajduje się 2 miliony Ukraińców, z których duża część zostanie w Polsce. Obecnie myśląc o skutecznej pomocy musimy przyjmować perspektywę kilku lat. Oznacza to konieczność stopniowego zastępowania działań wolontariuszy pracą zatrudnionych koordynatorów i ekspertów. Środki przekazane na KIK wykorzystamy na rozwijanie naszej zdolności skutecznej, szerokiej i długofalowej pomocy (kluczowe wynagrodzenie koordynatorów) oraz na konkretne działania pomocowe (np. transport darów, zakup środków medycznych itd.)
