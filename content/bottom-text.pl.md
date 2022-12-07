@@ -11,7 +11,12 @@ Dzięki tym działaniom KIK ma szeroką bazę sprawdzonych partnerów na terytor
 
 
 ### Wsparcie po wybuchu wojny
-Dzięki dużemu doświadczeniu w prowadzeniu działań pomocowych w oparciu o ustalone i potwierdzone potrzeby, korzystając z wiedzy i doświadczeń naszych partnerów w Polsce i za granicą, korzystając ze wsparcia  wolontariuszy, od początku rosyjskiej agresji na Ukrainę staramy się pomagać w tych sferach, które w danym momencie uważamy za najważniejsze. Na początku była to pomoc w ewakuacji z terenów objętych działaniami wojennymi, pomoc humanitarna i zapewnienie podstawowych potrzeb uchodźców. Obecnie koncentrujemy się na aspektach, które uważamy za szczególnie ważne dla przyszłości Ukrainy: edukacja i objęcie opieką dzieci i młodzieży, pomoc dzieciom przeżywającym traumę w związku ze stratą rodzica, organizacja wypoczynku dla dzieci i młodzieży, pomoc uchodźcom wewnętrznym w Ukrainie. Działamy razem z organizacjami ukraińskimi, takimi jak: BUR oraz Fundacją “Szansa na Nowe Życie".
+Dzięki dużemu doświadczeniu w prowadzeniu działań pomocowych w oparciu o ustalone i potwierdzone potrzeby, korzystając z wiedzy i doświadczeń naszych partnerów w Polsce i za granicą, korzystając ze wsparcia  wolontariuszy, od początku rosyjskiej agresji na Ukrainę staramy się pomagać w tych sferach, które w danym momencie uważamy za najważniejsze. Na początku była to pomoc w ewakuacji z terenów objętych działaniami wojennymi, pomoc humanitarna i zapewnienie podstawowych potrzeb uchodźców. Obecnie koncentrujemy się na aspektach, które uważamy za szczególnie ważne dla przyszłości Ukrainy:  
+- edukacja i objęcie opieką dzieci i młodzieży
+- pomoc dzieciom przeżywającym traumę w związku ze stratą rodzica
+- organizacja wypoczynku dla dzieci i młodzieży
+- pomoc uchodźcom wewnętrznym w Ukrainie  
+Działamy razem z organizacjami ukraińskimi, takimi jak: BUR oraz Fundacją “Szansa na Nowe Życie".
 
 ### Potrzebna pomoc
 Każda z naszych inicjatyw pomocowych potrzebuje funduszy.  
@@ -19,5 +24,3 @@ Każda z naszych inicjatyw pomocowych potrzebuje funduszy.
 - **Szkoła ukraińska:** zatrudnienie nauczycieli, zakup pomocy naukowych, druk/zakup podręczników, utrzymanie budynku.
 - **Obozy, wyjazdy, integracja i wypoczynek dzieci i młodzieży:** transport, wyżywienie, opiekunowie, w tym opieka psychologiczna, prowadzenie warsztatów, wypożyczenie sprzętu sportowego.
 - **Szkolenia:** wyjazd integracyjno-szkoleniowy dla młodych liderów z Polski i Ukrainy, szkolenia dla psychologów ukraińskich, przeszkolenie kadr i wolontariuszy pracujących z dziećmi.
-
-Nasze stowarzyszenie potrzebuje też bardzo funduszy na rozwój infrastruktury. Obecnie na terytorium Polski znajduje się 2 miliony Ukraińców, z których duża część zostanie w Polsce. Obecnie myśląc o skutecznej pomocy musimy przyjmować perspektywę kilku lat. Oznacza to konieczność stopniowego zastępowania działań wolontariuszy pracą zatrudnionych koordynatorów i ekspertów. Środki przekazane na KIK wykorzystamy na rozwijanie naszej zdolności skutecznej, szerokiej i długofalowej pomocy (kluczowe wynagrodzenie koordynatorów) oraz na konkretne działania pomocowe (np. transport darów, zakup środków medycznych itd.)
