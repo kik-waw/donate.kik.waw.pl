@@ -9,15 +9,17 @@ Depuis 2014, le KIK s'est particulièrement engagé auprès de la société ukra
  
 Grâce à ces activités, le KIK dispose d'une large base de partenaires expérimentés en sur le territoire ukrainien dans les domaines de la santé, de l'éducation, de la culture et du développement de la société civile. Nous avons coopéré avec le ministère ukrainien de la Défense nationale, les autorités locales et les directeurs d'hôpitaux. Pour leur engagement, les membres du KIK ont réçu, à plusieurs reprises, des prix da la part des autorités ukrainiennes et polonaises.
  
-### Soutien après l'éclatement de la guerre
+### Le soutien après l’éclatement de la guerre
  
-Grâce à de nombreuses années d'expérience dans la conduite d'activités d'aide basées sur des besoins identifiés et confirmés, en nous appuyant sur les compétences et l'expérience de nos partenaires en Pologne et à l'étranger, ainsi que sur le soutien de volontaires engagés, nous essayons d'aider depuis le début de l'agression russe contre l'Ukraine - en particulier là où nous voyons des niches non couvertes par un soutien plus large. Nous nous concentrons sur l'aide dans trois domaines: l'aide humanitaire et médicale sur le territoire de l'Ukraine ; la satisfaction des besoins fondamentaux des réfugiés sur le territoire de la Pologne et l'organisation de formes d'aide à long terme.
+Grâce à une vaste expérience dans la conduite d'activités d'aide basées sur des besoins bien définis et confirmés, en mettant à profit les connaissances et l'expérience de nos partenaires en Pologne et à l'étranger, en faisant appel au soutien de volontaires, nous avons essayé, depuis le début de l'agression russe contre l'Ukraine, d'apporter notre aide dans les domaines que nous avons jugés les plus importants à un moment donné.
 
-### Le soutien dont nous avons besoin
-**Chacune de nos initiatives d'aide a besoin de fonds.**
-- **Foyer d'intervention pour les réfugiés:** n'ayant pas la citoyenneté ukrainienne : pour couvrir les frais d'entretien du lieu, de la nourriture, du linge, etc.
-- **Évacuation des enfants handicapés:** pour le transport, les coûts de l'appui administratif aux groupes évacués.
-- **Activités de l'après-midi pour les enfants des réfugiés:** pour l'achat de matériel, les salaires des psychologues.
-- **Aide humanitaire:** pour le transport des matériels d'aide et l'achat d'équipements spécialisés (par exemple, des appareils à ultrasons pour les hôpitaux de campagne).
-- **École ukrainienne:** pour les salaires des enseignants, l'achat de matériel didactique, l'impression/achat de manuels scolaires, l'entretien des bâtiments.
-- **Modèle de soutien à long terme aux réfugiés:** pour l'embauche d'experts afin de piloter des solutions modèles.
+Au début, il s'agissait surtout d'assistance à l'évacuation des personnes, dont des enfants handicapés physiques et mentaux, des zones de conflit armé, ainsi que d'aide humanitaire et d’aide à satisfaire des besoins fondamentaux des réfugiés.
+
+A présent, nous nous concentrons sur des aspects que nous considérons comme particulièrement importants pour l'avenir de l'Ukraine : l'éducation et la prise en charge des enfants et des jeunes, l'aide aux enfants traumatisés par la perte d'un parent, l'organisation de vacances pour les enfants et les jeunes, l'aide aux réfugiés internes en Ukraine. A ce propos, nous travaillons en étroite collaboration avec des organisations ukrainiennes telles que  Construire l’Ukraine Ensemble et la Fondation "Chance pour une vie nouvelle".
+
+### L’aide toujours nécessaire
+Chacune de nos initiatives d'aide a besoin de vous.  
+- **Aide humanitaire en Ukraine:** pour l’achat de groupes électrogènes, de pansements et de matériel medical spécialisé, pour le transport.
+- **École ukrainienne:** pour les contrats des professeurs, l’achat de matériel didactique, l’impression ou l’achat de manuels scolaires, l’entretien du bâtiment.
+- **Camps, voyages, intégration et loisirs pour enfants et jeunes:** pour le transport, les repas, les frais des accompagnateurs, y compris le suivi psychologique, l’animation d'ateliers, la location du matériel sportif.
+- **Formation:** pour un séjour d'intégration et de formation de jeunes leaders de Pologne et d'Ukraine; pour la formation de psychologues ukrainiens, la formation du personnel et des bénévoles travaillant avec les enfants.

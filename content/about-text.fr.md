@@ -1,10 +1,8 @@
-### Ce que nous faisons:
+### Que faisons-nous?
 
-- Nous envoyons des équipements professionnels utilisés par les services médicaux ukrainiens dans les hôpitaux de campagne.
-- Nous menons et soutenons l'évacuation des centres pour enfants handicapés du territoire ukrainien.
-- Nous gérons un foyer d'intervention pour les réfugiés sans nationalité ukrainienne qui ne sont pas couverts par les programmes d'aide gouvernementaux.
-- Nous avons mis en place un service de soutien aux parents et de garde quotidien de l'après-midi pour les enfants issus de familles de réfugiés.
-- Nous cherchons des logements pour les réfugiés. Nous soutenons les hôtes qui mettent leur appartement à disposition.
-- Nous envoyons de l'aide humanitaire sur le territoire de l'Ukraine.
-- Nous lançons une école ukrainienne à Varsovie.
-- Nous travaillons sur un modèle de soutien à long terme pour les réfugiés.
+- Nous envoyons de l’équipement professionnel et des pansements utilisés par les services médicaux ukrainiens dans des zones de conflit armé ainsi que dans des hôpitaux.
+- Nous gérons l'Ecole ukrainienne de Varsovie - SzkoUA qui abrite 270 élèves ukrainiens.
+- Nous organisons des camps thérapeutiques gratuits en Pologne pour les enfants de soldats ukrainiens tués en guerre ou blessés; dans ce cas précis il s’agit d’enfants orphelins ou orphelines, domiciliés en Ukraine.
+- Nous organisons des vacances gratuites pour les enfants d'Ukraine. En été, sous forme de camps de randonnée et de kayak ou bien sous forme de "L’été en ville". En hiver, sous forme de camps sportifs à la montagne.
+- Dans le cadre de la coopération avec l'organisation BUR (Budujemy Ukrainę Razem - Construire l’Ukraine Ensemble), nous aidons à la rénovation d'appartements destinés à des déplacés internes en Ukraine.
+- Nous organisons des “rencontres avec l'art” au Musée national de Varsovie, pour les enfants et les parents - réfugiés d'Ukraine.
