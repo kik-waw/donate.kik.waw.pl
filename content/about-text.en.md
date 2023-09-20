@@ -1,9 +1,9 @@
 ### What we do:
 
-- We send professional equipment and dressings used by Ukrainian medical services in war zones and hospitals.
-- We run the Ukrainian School for 270 students in Warsaw.
-- We carry out and support evacuations of orphanages for children with disabilities from the territory of Ukraine.
-- We organise free therapeutic and respite camps for children of wounded and fallen soldiers  who live permanently in Ukraine.
-- We organise holidays free-of-charge for children from Ukraine. In summer in the form of hiking and kayaking camps or "Summer in the city" activities, and in winter - in the form of sports camps in the mountains.
-- In cooperation with BUR (Building Ukraine Together) we help with apartment renovations for domestic refugees in Ukraine.
-- We carry out  encounters with art at the National Museum for children and parents from Ukraine.
+Today, after more than 1.5 years of this constant wartime effort, we are refocusing our projects to channel resources and funding into sustainable and validated initiatives that focus on children and youth and will help strengthen the civic society in both Ukraine and Poland.  
+
+- Education: running a Ukrainian school in Warsaw for 270 children and providing workshops for teachers.
+- “Mountains of Leadership”: Training Ukrainian and Polish students and future leaders to get involved in youth animation and project management.
+- Integration: Running summer and winter camps to build relationships between children and youth from Poland and Ukraine.
+- “Play for peace”: Running a project for high-school youth aimed at training peaceful approach to resolving conflicts, animated by alumni of “Mountains of Leadership”. 
+- Respite: organizing respite camps for children of Ukrainian soldiers who have fallen at war.
