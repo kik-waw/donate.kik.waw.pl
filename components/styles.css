@@ -128,7 +128,7 @@ nav.header {
 }
 
 .about p {
-    @apply text-white p-3
+    @apply text-white py-2
 }
 .about ul {
     @apply flex flex-wrap
