@@ -52,7 +52,7 @@
     width: 150px;
     display: block;
 }
-.counter > p {
+.about .counter > p {
     @apply text-grayblue text-lg
 }
 

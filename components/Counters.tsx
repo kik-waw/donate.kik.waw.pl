@@ -6,7 +6,7 @@ const Counters: React.FC = () => {
     const {t} = useTranslation();
     return (
         <div className="w-full bg-specialyellow text-grayblue" id="content">
-            <section className="container text-white about">
+            <section className="container text-grayblue about">
                 <div>
                     <h2 className="text-grayblue pb-4">{t('What we did')}</h2>
                     <Counter number={750}>{t('We evacuated')}</Counter>
